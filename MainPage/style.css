@@ -468,6 +468,12 @@ html {
     display: flex;
     align-items: center; }
 
+.btn_language button {
+  outline: none;
+  width: 3rem;
+  height: 1.5rem;
+  margin-top: 0.3rem; }
+
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -1097,6 +1103,9 @@ p {
 .footer_content .footer_contact img {
   margin-bottom: 1rem; }
 
+.footer_content .footer_wechat img {
+  margin-top: 1rem; }
+
 .successExamples {
   text-align: center; }
 
@@ -1127,7 +1136,7 @@ p {
   list-style: none;
   display: block;
   background-color: white;
-  min-height: 50px;
+  height: 50px;
   min-width: 250px;
   margin-bottom: 50px;
   -webkit-box-shadow: 3px 17px 56px -6px #f0de69;
@@ -1136,7 +1145,7 @@ p {
   border-radius: 75px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: center;
   position: absolute;
   transform: translateY(300px); }
@@ -1145,14 +1154,17 @@ p {
   margin-left: 0.7rem; }
 
 .bubble_name {
-  font-weight: bold; }
+  font-weight: bold;
+  text-align: center; }
 
 .bubble_container .bubbles img {
   width: 48px;
   height: 48px;
   border-radius: 50%;
   border-style: none;
-  margin-left: 0.3rem; }
+  position: absolute;
+  left: 10px;
+  top: 0; }
 
 .b1 .bubble {
   animation: myMove1 10s infinite linear; }

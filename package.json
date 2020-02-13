@@ -16,7 +16,8 @@
     "url": "https://github.com/panshangzhu/mark2win_newwebsite/issues"
   },
   "homepage": "https://github.com/panshangzhu/mark2win_newwebsite#readme",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "node-sass": "^4.13.1"
   }
 }
