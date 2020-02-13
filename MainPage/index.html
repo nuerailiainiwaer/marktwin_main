@@ -30,7 +30,7 @@
 
           <div class="navigation__list">
             <div class="navigation__item">
-                <a id="apam1"  class="apam">
+                <a id="apam1"  class="apam" data-localize="courses">
                   核心课程
                 </a>
                 <div id="baobao1" class="baobao">
@@ -42,8 +42,8 @@
             </div>
            
           <div class="navigation__item">
-              <a id="apam2"  class="apam">
-                课程大纲
+              <a id="apam2"  class="apam" data-localize="success">
+                成功案例
               </a>
               <div id="baobao2" class="baobao">
                     <a class="baobao2">数学</a>
@@ -53,7 +53,7 @@
             </div>
           
           <div class="navigation__item">
-            <a id="apam3"  class="apam">
+            <a id="apam3"  class="apam" data-localize="news">
               新闻与活动
             
             </a>
@@ -72,7 +72,7 @@
 
       <ul class="toppic__container">
         <li class="liwrap">
-          <div class="liwrap__down">
+          <div class="liwrap__down" data-localize="courses">
             <span>
               核心课程
             </span>
@@ -143,7 +143,7 @@
               </a>
             </div>
           </div>
-          <div class="liwrap__down">
+          <div class="liwrap__down" data-localize="success">
             <span>
               成功案例
             </span>
@@ -183,7 +183,7 @@
               </a>
             </div>
           </div>
-          <div class="liwrap__down">
+          <div class="liwrap__down" data-localize="news">
             <span>
               新闻与活动
             </span>
@@ -223,7 +223,7 @@
               </a>
             </div>
           </div>
-          <div class="liwrap__down">
+          <div class="liwrap__down" data-localize="sources">
             <span>
               免费资源
             </span>
@@ -263,7 +263,7 @@
               </a>
             </div>
           </div>
-          <div class="liwrap__down">
+          <div class="liwrap__down" data-localize="about">
             <span>
               关于我们
             </span>
@@ -276,17 +276,17 @@
 
 
           <div id="zhu1" class="toppic__zhu1">
-             <button id="zhu" class="toppic__btn1  toppic__btn1--zhu">注册</button>
+             <button id="zhu" class="toppic__btn1  toppic__btn1--zhu" data-localize="register">注册</button>
           </div>
 
 
           <div class="toppic__denglu1">
-            <button class="toppic__btn1 toppic__btn1--denglu">登录</button>
+            <button class="toppic__btn1 toppic__btn1--denglu" data-localize="login">登录</button>
           </div>
           
           <div class="btn_language">
-            <button class=" btn_ch">中文</button>
-            <button class=" btn_en">English</button>
+            <button class="btn_ch" id="btn_ch">中文</button>
+            <button class="btn_en" id="btn_en">English</button>
           </div>
 
         </div>
@@ -1138,24 +1138,27 @@
             <div class='footer_text' id="footer_email">info&commat;mark2win.com</div>
         </div>
         <div class="footer_courses">
-            <h4>Courses</h4>
-            <div class='footer_text' id="footer_full"><a href="#">Full Stack Developer</a></div>
-            <div class='footer_text' id="footer_ba"><a href="#">Business Analysis</a></div>
-            <div class='footer_text' id="footer_intern"><a href="#">Intern</a></div>
+            <h4 data-localize='courses'>Courses</h4>
+            <div class='footer_text' id="footer_full" data-localize='footer.fullStack'><a href="#">Full Stack Developer</a></div>
+            <div class='footer_text' id="footer_ba" data-localize='footer.ba'><a href="#">Business Analysis</a></div>
+            <div class='footer_text' id="footer_intern" data-localize='footer.intern'><a href="#">Intern</a></div>
         </div>
         <div class="footer_company">
-            <h4>Company</h4>
-            <div class='footer_text' id="footer_full"><a href="#">About</a></div>
-            <div class='footer_text' id="footer_ba"><a href="#">Join Us</a></div>
+            <h4 data-localize='footer.company'>Company</h4>
+            <div class='footer_text' data-localize='about'><a href="#">About</a></div>
+            <div class='footer_text' data-localize='footer.joinUs'><a href="#">Join Us</a></div>
         </div>
         <div class="footer_wechat">
-            <h4>Connect us on WeChat</h4>
+            <h4 data-localize='footer.weChat'>Connect us on WeChat</h4>
             <img src="./images/Footer/admit-qr.png" alt="footer_wechat">
         </div>
       </div>
       <h6>&copy 2019 Creation All Rights Reserved | Powered by Mark2Win Frond End Developer Intern</h6>
     </section>
    
+    <script src="./jquery.js"></script>
+    <script src="./jquery.localize.js"></script>
+    <script src="./language.js"></script>
     <script src="app.js"></script>
   </body>
 </html>

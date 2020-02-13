@@ -1,0 +1,18 @@
+{
+    "about":"关于我们",
+    "courses":"精品课程",
+    "success":"成功案例",
+    "news":"新闻活动",
+    "sources":"免费资源",
+    "login":"登录",
+    "register":"注册",
+    "footer":{
+        "fullStack":"全栈工程师",
+        "ba":"商业分析",
+        "intern":"实习",
+        "company":"公司",
+        "joinUs":"加入我们",
+        "weChat":"联系我们的微信"
+    },
+    "content":"这是内容"
+}

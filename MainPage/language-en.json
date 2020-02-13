@@ -1,0 +1,19 @@
+{
+  "title": "This is title",
+  "courses": "Courses",
+  "about": "About Us",
+  "success": "Sucess Examples",
+  "news": "News",
+  "sources": "Resources",
+  "login": "Login",
+  "register": "Register",
+  "footer": {
+    "fullStack": "Full Stack Developer",
+    "ba": "Business Analysis",
+    "company": "Company",
+    "intern": "Intern",
+    "joinUs": "Jon Us",
+    "weChat": "Contact us on WeChat"
+  },
+  "content": "This is Content"
+}
