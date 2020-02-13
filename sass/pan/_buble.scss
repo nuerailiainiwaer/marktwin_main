@@ -1,0 +1,249 @@
+.successExamples {
+    text-align: center;
+   }
+   .successHead{
+       margin:1rem 1rem;
+       line-height: 1.5rem;
+   }
+   .successIntro{
+       margin-top:1rem;
+   }
+   .bubble_container {
+    width: 100%;
+     height: 300px;
+     background-color: rgb(243, 243, 243);
+     overflow: hidden;
+     display: flex;
+     flex-wrap: nowrap;
+     justify-content: space-around;
+   }
+   .bubble_container .bubbles {
+     display: flex;
+     flex-direction: column;
+     min-width: 250px;
+     position: relative;
+   }
+   .bubble_container .bubbles .bubble {
+     border: 2px solid lightblue;
+     list-style: none;
+     display: block;
+     background-color: white;
+     min-height: 50px;
+     min-width: 250px;
+     margin-bottom: 50px;
+     -webkit-box-shadow: 3px 17px 56px -6px rgba(240, 222, 105, 1);
+     -moz-box-shadow: 3px 17px 56px -6px rgba(240, 222, 105, 1);
+     box-shadow: inset 3px 17px 56px -6px rgba(238, 229, 153, 0.8);
+     border-radius: 75px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content:flex-start;
+     align-items: center;
+     position: absolute;
+     transform:translateY(300px)
+   }
+   .bubble-intro{
+       margin-left:0.7rem;
+   }
+   .bubble_name{
+   font-weight: bold;
+   }
+   .bubble_container .bubbles img {
+     width: 48px;
+     height: 48px;
+     border-radius: 50%;
+     border-style:none;
+     margin-left:0.3rem;
+   }
+   
+   .b1 .bubble {
+     animation: myMove1 10s infinite linear;
+   }
+   .b2 .bubble{
+     margin-top: 50px;
+     animation: myMove2 10s infinite linear;
+   }
+   .b3 .bubble{
+     margin-top: 100px;
+     animation: myMove3 10s infinite linear;
+   }
+   .b4 .bubble{
+     margin-top: 150px;
+     animation: myMove4 10s infinite linear;
+   }
+   
+   .bubble:nth-child(1) {
+     animation-delay: 0s;
+   }
+   .bubble:nth-child(2) {
+     animation-delay: 2s;
+   }
+   .bubble:nth-child(3) {
+     animation-delay: 4s;
+   }
+   .bubble:nth-child(4) {
+     animation-delay: 6s;
+   }
+   .bubble:nth-child(5) {
+     animation-delay: 8s;
+   }
+   
+   @keyframes myMove1 {
+     0% {
+       transform: translateY(300px) scale(1);
+       opacity: 0;
+     }
+     50% {
+       transform: translateY(100px) scale(1.1);
+       opacity: 1;
+     }
+     100% {
+       transform: translateY(-100px) scale(1);
+       opacity: 0;
+     }
+   }
+   @keyframes myMove2 {
+     0% {
+       transform: translateY(300px) scale(1);
+       opacity: 0;
+     }
+     50% {
+       transform: translateY(75px) scale(1.1);
+       opacity: 1;
+     }
+     100% {
+       transform: translateY(-150px) scale(1);
+       opacity: 0;
+     }
+   }
+   @keyframes myMove3 {
+     0% {
+       transform: translateY(300px) scale(1);
+       opacity: 0;
+     }
+     50% {
+       transform: translateY(50px) scale(1.1);
+       opacity: 1;
+     }
+     100% {
+       transform: translateY(-175px) scale(1);
+       opacity: 0;
+     }
+   }
+   @keyframes myMove4 {
+     0% {
+       transform: translateY(300px) scale(1);
+       opacity: 0;
+     }
+     50% {
+       transform: translateY(25px) scale(1.1);
+       opacity: 1;
+     }
+     100% {
+       transform: translateY(-225px) scale(1);
+       opacity: 0;
+     }
+   }
+   @media only screen and (max-width: 1080px){
+      .bubble_container {
+     border: 2px solid lightblue;
+     width: 100%;
+     height: 300px;
+     background-color: beige;
+     overflow: hidden;
+     position: relative;
+   }
+   .bubble_container .bubbles {
+     display: flex;
+     flex-direction: column;
+     min-width: 250px;
+   }
+   .bubble_container .bubbles .bubble {
+     border: 2px solid green;
+     list-style: none;
+     display: block;
+     background-color: white;
+     min-height: 50px;
+     min-width: 250px;
+     margin-bottom: 50px;
+     -webkit-box-shadow: 3px -6px 56px -6px rgba(240, 222, 105, 1);
+     -moz-box-shadow: 3px -6px 56px -6px rgba(240, 222, 105, 1);
+     box-shadow: 3px -6px 56px -6px rgba(240, 222, 105, 1);
+     border-radius: 75px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center;
+     transform:translateY(300px)
+   }
+   .b1{
+       position: absolute;
+       transform: translateX(50%);
+   }
+   .b2{
+       position: absolute;
+        transform: translateX(150%);
+   }
+   
+   .b3 .bubble{
+       margin-top: 100px;
+       animation: none;
+     }
+    
+     .b4 .bubble{
+       margin-top: 150px;
+       animation: none;
+     }
+   }
+   @media only screen and (max-width: 760px){
+       .bubble_container {
+           border: 2px solid lightblue;
+           width: 100%;
+           height: 300px;
+           background-color: beige;
+           overflow: hidden;
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-around;
+         }
+         .bubble_container .bubbles {
+           display: flex;
+           flex-direction: column;
+           min-width: 250px;
+         }
+         .bubble_container .bubbles .bubble {
+           border: 2px solid green;
+           list-style: none;
+           display: block;
+           background-color: white;
+           min-height: 50px;
+           min-width: 250px;
+           margin-bottom: 50px;
+           -webkit-box-shadow: 3px -6px 56px -6px rgba(240, 222, 105, 1);
+           -moz-box-shadow: 3px -6px 56px -6px rgba(240, 222, 105, 1);
+           box-shadow: 3px -6px 56px -6px rgba(240, 222, 105, 1);
+           border-radius: 75px;
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-around;
+           align-items: center;
+           transform:translateY(300px)
+         }
+         .b1{
+             position: absolute;
+             transform: translateX(0);
+         }
+         .b2 .bubble{
+             margin-top: 50px;
+             animation: none;
+           }
+           .b3 .bubble{
+             margin-top: 100px;
+             animation: none;
+           }
+           .b4 .bubble{
+             margin-top: 150px;
+             animation: none;
+           }
+   }
+   

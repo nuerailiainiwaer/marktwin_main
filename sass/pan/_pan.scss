@@ -1,0 +1,119 @@
+// body {
+//   font-size: 16px;
+//   margin: 0;
+//   padding: 0;
+//   font-family: "Poppins", sans-serif;
+// }
+// h1 {
+//   padding-bottom: 1rem;
+// }
+// hr {
+//   width: 10%;
+//   color: #95a5a6;
+//   font-weight: bold;
+//   margin-left:auto;
+//   margin-right:auto;
+// }
+// .page1 {
+//   width: 100vw;
+//   height: 100vh;
+//   background-color: beige;
+// }
+
+// .page2 {
+//   width: 100vw;
+//   display: flex;
+//   flex-direction: column;
+//   -ms-flex-direction: column;
+// }
+
+// .counter-content {
+//   width: 100%;
+//   display: grid;
+//   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+
+//   text-align: center;
+//   font-size: 1.5rem;
+//   color: #ecf0f1;
+//   background-color: #c0392b;
+// }
+
+// .counter {
+//   font-size: 3rem;
+// }
+// .studentFeedback {
+//   text-align: center;
+//   padding: 2rem 0rem;
+//   color: #2c3e50;
+//   background-color: beige;
+// }
+// .studentFeedback .studentVideo {
+//   display: flex;
+//   justify-content: space-evenly;
+//   flex-wrap: wrap;
+// }
+
+// .studentFeedback .studentFeedback_des {
+//   font-size: 1.3rem;
+//   max-width: 100%;
+//   padding-bottom: 2rem;
+//   font-weight: bold;
+// }
+// .studentFeedback iframe {
+//   max-width: 100%;
+//   width: 25rem;
+//   height: 20rem;
+//   border: none;
+//   margin: 0.5rem 0.5rem;
+//   box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.7);
+// }
+// .cooperateCompanies {
+//   width: 100%;
+//   min-height: 500px;
+//   background-color: beige;
+//   position: relative;
+//   text-align: center;
+//   padding-top: 1rem;
+// }
+// .cooperateCompanies::after {
+//   content: "";
+//   background: url("./images/cooperateCompanies-bg.jpg");
+//   background-size: cover;
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   top: 0;
+//   left: 0;
+//   opacity: 0.3;
+// }
+// .cooperateCompanies .cooperateCompanies_des {
+//   font-size: 1.3rem;
+//   max-width: 100%;
+//   margin-bottom: 1.5rem;
+//   font-weight: bold;
+// }
+
+// .cooperateCompanies .images {
+//   width: 80%;
+//   margin-left: auto;
+//   margin-right: auto;
+//   /* background-color: rgba(157, 158, 158, 0.5); */
+//   border-radius: 5%;
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-between;
+//   transition: 5s ease-in;
+// }
+
+// .cooperateCompanies .images img {
+//   min-width: 10px;
+//   width: 4em;
+//   height: 4em;
+//   margin: 1rem;
+//   opacity: 0;
+//   transition: all 1s ease-in;
+// }
+
+// /* Ali css here */
+
+// /* Wilson css here */

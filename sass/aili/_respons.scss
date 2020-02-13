@@ -1,0 +1,60 @@
+
+.baobao{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   overflow: hidden;
+   opacity: 0;
+   height: 0;
+   transform: scaleY(0.1111);
+   transform-origin: top;
+   animation-timing-function: linear;
+   transition-property: all;
+   transition-duration:1s;
+   
+   top: 0;
+    
+    border-collapse:collapse;
+
+
+}
+.baobao2{
+  
+    
+   /*display: flex;
+   flex-direction: column;
+   border-collapse:collapse;*/
+   /*display: table-cell;*/
+   padding: .3rem .5rem;
+   margin-top: .3rem;
+   border: 1px solid red; 
+   width: 20%;
+    height: 20px; 
+//    margin:-1px 0 0 -1px;
+   
+}
+.apam{
+   padding: .5rem 1rem;
+   
+   width: 100px;
+   height: 25px;
+   background-color: grey;
+   border: 2px solid blue;
+   
+}
+
+/*.apam:hover .baobao{
+   
+   
+   transform: scaleY(1);
+
+}*/
+
+.final{
+    margin-top: .5rem;
+   transform: scaleY(1) !important;
+   opacity: 1;
+   height:  110px;
+
+
+}
