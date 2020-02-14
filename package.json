@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "fuckme": "node-sass sass/main.scss mainpage/style.css -w"
+    "mark2win": "node-sass sass/main.scss mainpage/style.css -w"
   },
   "repository": {
     "type": "git",
