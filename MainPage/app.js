@@ -180,8 +180,8 @@ var myVar1;
 var btn1 = document.getElementById("r1");
 var btn2 = document.getElementById("r2");
 var btn3 = document.getElementById("r3");
-var btn4 = document.getElementById("r4");
-var btn5 = document.getElementById("r5");
+// var btn4 = document.getElementById("r4");
+// var btn5 = document.getElementById("r5");
 
 btn1.addEventListener("mouseenter",firstbtn);
 function firstbtn(){
@@ -200,8 +200,8 @@ function firstbtn(){
    
     x[1].classList.add("addno");
     x[2].classList.add("addno");
-    x[3].classList.add("addno");
-    x[4].classList.add("addno");
+    // x[3].classList.add("addno");
+    // x[4].classList.add("addno");
     
    
     document.getElementById("slidescontain").style.width="100%";
@@ -219,11 +219,11 @@ function firstbtnlev1(){
   for (i = 0; i < x.length; i++) {
       x[i].classList.remove("addno"); 
       // x[i].style.WebkitAnimation ="20s anwar infinite";
-      x[i].style.width="20%"; 
+      x[i].style.width="40%"; 
   }
 
   
-  document.getElementById("slidescontain").style.width="500%";
+  document.getElementById("slidescontain").style.width="300%";
 }
 
 
@@ -243,8 +243,8 @@ function firstbtn1(){
    
     x[0].classList.add("addno");
     x[2].classList.add("addno");
-    x[3].classList.add("addno");
-    x[4].classList.add("addno");
+    // x[3].classList.add("addno");
+    // x[4].classList.add("addno");
     
    
     document.getElementById("slidescontain").style.width="100%";
@@ -263,9 +263,9 @@ function firstbtnlev2(){
   for (i = 0; i < x.length; i++) {
       x[i].classList.remove("addno"); 
       // x[i].style.WebkitAnimation ="20s anwar infinite";
-      x[i].style.width="20%"; 
+      x[i].style.width="40%"; 
   }
-  document.getElementById("slidescontain").style.width="500%";
+  document.getElementById("slidescontain").style.width="300%";
 
 }
 btn3.addEventListener("mouseenter",firstbtn2);
@@ -284,8 +284,8 @@ function firstbtn2(){
    
     x[0].classList.add("addno");
     x[1].classList.add("addno");
-    x[3].classList.add("addno");
-    x[4].classList.add("addno");
+    // x[3].classList.add("addno");
+    // x[4].classList.add("addno");
     
    
     document.getElementById("slidescontain").style.width="100%";
@@ -302,87 +302,87 @@ function firstbtnlev4(){
   var x = document.getElementsByClassName("slide");
   for (i = 0; i < x.length; i++) {
       x[i].classList.remove("addno");
-      x[i].style.width="20%"; 
+      x[i].style.width="40%"; 
   }
-  document.getElementById("slidescontain").style.width="500%";
+  document.getElementById("slidescontain").style.width="300%";
 
 }
-btn4.addEventListener("mouseenter",firstbtn3);
-function firstbtn3(){
+// btn4.addEventListener("mouseenter",firstbtn3);
+// function firstbtn3(){
 
-  dots2.style.WebkitAnimation = "none";
+//   dots2.style.WebkitAnimation = "none";
 
 
-    for (var i = 0; i < bar1.length; i++) {
-      bar1[i].className = bar1[i].className.replace(" red", "");
-    }
-    intervalManager(false);
+//     for (var i = 0; i < bar1.length; i++) {
+//       bar1[i].className = bar1[i].className.replace(" red", "");
+//     }
+//     intervalManager(false);
     
-    var x = document.getElementsByClassName("slide");
-    for (i = 0; i < x.length; i++) {
-        x[i].classList.remove("addno");  
-      }
+//     var x = document.getElementsByClassName("slide");
+//     for (i = 0; i < x.length; i++) {
+//         x[i].classList.remove("addno");  
+//       }
    
-    x[0].classList.add("addno");
-    x[1].classList.add("addno");
-    x[2].classList.add("addno");
-    x[4].classList.add("addno");
+//     x[0].classList.add("addno");
+//     x[1].classList.add("addno");
+//     x[2].classList.add("addno");
+//     x[4].classList.add("addno");
     
    
-    document.getElementById("slidescontain").style.width="100%";
-    x[3].style.WebkitAnimation = "none";
-    x[3].style.WebkitAnimation ="appear .6s";
-    x[3].style.width="100%";
-}
-btn4.addEventListener("mouseleave",firstbtnlev5);
-function firstbtnlev5(){
-  intervalManager(true);
-  y=1;
-  var x = document.getElementsByClassName("slide");
-  for (i = 0; i < x.length; i++) {
-      x[i].classList.remove("addno");
-      x[i].style.width="20%"; 
-  }
-  document.getElementById("slidescontain").style.width="500%";
-}
+//     document.getElementById("slidescontain").style.width="100%";
+//     x[3].style.WebkitAnimation = "none";
+//     x[3].style.WebkitAnimation ="appear .6s";
+//     x[3].style.width="100%";
+// }
+// btn4.addEventListener("mouseleave",firstbtnlev5);
+// function firstbtnlev5(){
+//   intervalManager(true);
+//   y=1;
+//   var x = document.getElementsByClassName("slide");
+//   for (i = 0; i < x.length; i++) {
+//       x[i].classList.remove("addno");
+//       x[i].style.width="20%"; 
+//   }
+//   document.getElementById("slidescontain").style.width="500%";
+// }
 
-btn5.addEventListener("mouseenter",firstbtn4);
-function firstbtn4(){
-  dots2.style.WebkitAnimation = "none";
+// btn5.addEventListener("mouseenter",firstbtn4);
+// function firstbtn4(){
+//   dots2.style.WebkitAnimation = "none";
 
-  for (var i = 0; i < bar1.length; i++) {
-    bar1[i].className = bar1[i].className.replace(" red", "");
-  }
-  intervalManager(false);
+//   for (var i = 0; i < bar1.length; i++) {
+//     bar1[i].className = bar1[i].className.replace(" red", "");
+//   }
+//   intervalManager(false);
     
-    var x = document.getElementsByClassName("slide");
-    for (i = 0; i < x.length; i++) {
-        x[i].classList.remove("addno");  
-      }
+//     var x = document.getElementsByClassName("slide");
+//     for (i = 0; i < x.length; i++) {
+//         x[i].classList.remove("addno");  
+//       }
    
-    x[0].classList.add("addno");
-    x[1].classList.add("addno");
-    x[2].classList.add("addno");
-    x[3].classList.add("addno");
+//     x[0].classList.add("addno");
+//     x[1].classList.add("addno");
+//     x[2].classList.add("addno");
+//     x[3].classList.add("addno");
     
-    document.getElementById("slidescontain").style.width="100%";
-    x[4].style.WebkitAnimation = "none";
-    x[4].style.WebkitAnimation ="appear .6s";
-    x[4].style.width="100%";
-}
-btn5.addEventListener("mouseleave",firstbtnlev);
-function firstbtnlev(){
-  intervalManager(true);
-  y=1;
-  var x = document.getElementsByClassName("slide");
-  for (i = 0; i < x.length; i++) {
-      x[i].classList.remove("addno"); 
-      // x[i].style.WebkitAnimation ="20s anwar infinite";
-      x[i].style.width="20%"; 
-  }
-  document.getElementById("slidescontain").style.width="500%";
+//     document.getElementById("slidescontain").style.width="100%";
+//     x[4].style.WebkitAnimation = "none";
+//     x[4].style.WebkitAnimation ="appear .6s";
+//     x[4].style.width="100%";
+// }
+// btn5.addEventListener("mouseleave",firstbtnlev);
+// function firstbtnlev(){
+//   intervalManager(true);
+//   y=1;
+//   var x = document.getElementsByClassName("slide");
+//   for (i = 0; i < x.length; i++) {
+//       x[i].classList.remove("addno"); 
+//       // x[i].style.WebkitAnimation ="20s anwar infinite";
+//       x[i].style.width="20%"; 
+//   }
+//   document.getElementById("slidescontain").style.width="500%";
 
-}
+// }
 /////under 500px
 var slideIndex = 1;
 
@@ -540,7 +540,7 @@ function intervalManager(flag) {
 function myTimer1() {
     currentDiv1(y);
     y++;
-    if(y>5){
+    if(y>3){
       y=1;
     }
   }
@@ -566,16 +566,17 @@ function showDivs1(n){
   }else if(y==2){
     dots2.style.WebkitAnimation ="f2 4s";
 
-  }else if(y==3){
-    dots2.style.WebkitAnimation ="f3 4s";
-
-  }else if(y==4){
-    dots2.style.WebkitAnimation ="f4 4s";
-
   }else{
-    dots2.style.WebkitAnimation ="f5 4s";
-
+    dots2.style.WebkitAnimation ="f3 4s";
   }
+
+  // }else if(y==4){
+  //   dots2.style.WebkitAnimation ="f4 4s";
+
+  // }else{
+  //   dots2.style.WebkitAnimation ="f5 4s";
+
+  // }
 
 }
 

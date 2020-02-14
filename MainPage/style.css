@@ -44,9 +44,9 @@
     .logopart--box--button {
       margin-left: 2rem;
       margin-top: 2rem;
-      background-color: blue;
+      background-color: #ffc73f;
       border: 1px solid white;
-      color: #eef279;
+      color: black;
       padding: 15px 20px;
       text-align: center;
       text-decoration: none;
@@ -62,13 +62,13 @@
           padding: 15px 20px;
           font-size: 20px; } }
       .logopart--box--button:hover {
-        background-color: #cdf7f7;
-        color: blue;
+        background-color: #151c3b;
+        color: white;
         border: 1px solid blue; }
 
 .video {
-  height: 75vh;
-  background-color: #cdf7f7; }
+  height: 400px;
+  background-color: #f1f3fe; }
   .video__container {
     width: 100vw;
     display: flex; }
@@ -340,7 +340,7 @@ html {
   left: 0;
   height: 44px;
   width: 100%;
-  background-color: #3b3b3b;
+  background-color: #f1f3fe;
   opacity: .9;
   display: flex;
   transition: all 350ms ease-out;
@@ -391,26 +391,13 @@ html {
       border: 3px solid #3b3b3b; }
     .toppic__btn1--denglu {
       border-radius: 30px;
-      background-color: blue;
-      color: white;
+      background-color: #ffc73f;
+      color: black;
       border: 3px solid #3b3b3b;
       transition: ease-in-out all 0.55s; }
-      .toppic__btn1--denglu:hover {
-        background-color: #3b3b3b;
-        border: 3px solid blue; }
   .toppic__zhu1 {
     transition: ease-in-out all .3s;
     border: 2px solid transparent; }
-  .toppic__denglu1 {
-    display: flex;
-    align-items: center;
-    transition: ease-in-out all .3s;
-    border: 2px solid transparent; }
-    .toppic__denglu1:focus {
-      outline-color: grey;
-      outline-style: auto;
-      outline-width: 5px;
-      outline-offset: -5px; }
 
 .liwrap {
   display: flex;
@@ -737,7 +724,7 @@ html {
       margin-top: 1rem; }
 
 .overall {
-  height: 400px;
+  height: 500px;
   display: flex;
   flex-direction: column; }
   @media only screen and (max-width: 65em) {
@@ -760,7 +747,7 @@ p {
   margin-bottom: 1rem; }
 
 .slidershow {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   overflow: hidden;
   position: relative;
@@ -820,7 +807,7 @@ p {
       background-color: #f1eee9; }
 
 .slides {
-  width: 500%;
+  width: 300%;
   display: flex;
   position: relative; }
   @media only screen and (max-width: 31.25em) {
@@ -865,7 +852,7 @@ p {
 .slide {
   background-color: #f1f2f5 !important;
   position: relative;
-  width: 20%;
+  width: 40%;
   left: 0;
   flex: 0 0 auto;
   display: flex;
@@ -1038,17 +1025,17 @@ p {
   0% {
     left: 0; }
   50% {
-    left: -100%; }
+    left: -120%; }
   100% {
-    left: -100%; } }
+    left: -120%; } }
 
 @keyframes f3 {
   0% {
-    left: -100%; }
+    left: -120%; }
   50% {
-    left: -200%; }
+    left: -240%; }
   100% {
-    left: -200%; } }
+    left: -240%; } }
 
 @keyframes f4 {
   0% {
@@ -1065,6 +1052,100 @@ p {
     left: -400%; }
   100% {
     left: -400%; } }
+
+.book {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(./../../MainPage/images/Footer/conputer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1rem; }
+  .book__form {
+    position: absolute;
+    margin-left: 5rem; }
+
+.heading1 {
+  margin-top: .5rem;
+  margin-bottom: .5rem !important; }
+
+.heading2 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, black, grey);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .2rem; }
+
+.slidetext {
+  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", sans-serif, BlinkMacSystemFont, "Segoe UI", "Arial", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+
+.heading3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, black, grey);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .2rem; }
+
+.heading4 {
+  margin-top: .5rem;
+  margin-bottom: .5rem; }
+
+.logowrapper {
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.tag {
+  font-size: 13.5px;
+  font-weight: 400px;
+  color: blue;
+  line-height: 24px;
+  word-break: keep-all;
+  height: 24px;
+  padding: 2px 12px;
+  background-color: white;
+  opacity: .5;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  margin: 6px 6px 0 0; }
+
+.buttonslide {
+  border-bottom-left-radius: 15px;
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .buttonslide__num1 {
+    color: white;
+    height: 1.8rem;
+    padding: 4px 1rem;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 1.5em;
+    border: none;
+    line-height: 1.5rem;
+    transition: all .3s ease;
+    background: linear-gradient(to right, blue, #5687e3 100%);
+    box-shadow: 0 12px 14px -4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    display: inline-block;
+    outline: none; }
+    .buttonslide__num1:hover {
+      outline-style: solid;
+      outline-color: grey;
+      outline-offset: 1px; }
+
+.cross {
+  display: inline-block;
+  text-decoration: line-through; }
 
 .footer {
   width: 100%;

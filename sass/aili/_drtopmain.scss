@@ -28,7 +28,7 @@ html{
     } 
     height: 44px;
     width: 100%;
-    background-color: #3b3b3b;
+    background-color: #f1f3fe;
     opacity: .9;
     display: flex;
     transition: all 350ms ease-out;
@@ -99,15 +99,15 @@ html{
 
         &--denglu{
             border-radius: 30px;
-            background-color: blue;
-            color: white;
+            background-color: #ffc73f;
+            color: black;
             border: 3px solid #3b3b3b ;
             transition: ease-in-out all 0.55s;
 
             &:hover{
-                background-color: #3b3b3b;
+                // background-color: #3b3b3b;
                 
-                border: 3px solid blue ;
+                // border: 3px solid blue ;
                
 
 
@@ -130,20 +130,20 @@ html{
     }
 
 
-    &__denglu1{
-        display: flex;
-       align-items: center;
-       transition: ease-in-out all .3s;
-        border: 2px solid transparent;
+    // &__denglu1{
+    //     display: flex;
+    //    align-items: center;
+    //    transition: ease-in-out all .3s;
+    //     border: 2px solid transparent;
 
-        &:focus{
-            outline-color: grey;
-            outline-style: auto;
-            outline-width: 5px;
-            outline-offset: -5px;
+    //     &:focus{
+    //         outline-color: grey;
+    //         outline-style: auto;
+    //         outline-width: 5px;
+    //         outline-offset: -5px;
 
-        }
-    }
+    //     }
+    // }
 
    
 

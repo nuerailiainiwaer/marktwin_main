@@ -12,7 +12,7 @@ $bp-360: 22.5; // 411px
 $bp-320: 20em; // 411px
 
 .overall{
-        height: 400px;
+        height: 500px;
          @media only screen and (max-width: 65em) {
         height: 41vh;
     }
@@ -50,7 +50,7 @@ p{
     @media only screen and (max-width: 21em) {
     flex: 0 0 76%;
     }
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     overflow: hidden;
     position: relative;
@@ -101,7 +101,8 @@ p{
     }
 }
 .slides{
-    width: 500%;
+    
+    width: 300%;
     display: flex;
     position: relative;
     @media only screen and (max-width: $bp-smallest) {
@@ -155,7 +156,7 @@ p{
 .slide{
     background-color: #f1f2f5 !important;
     position: relative;
-    width: 20%;
+    width: 40%;
     left: 0;
     flex: 0 0 auto;
     display: flex;
@@ -353,13 +354,13 @@ p{
 }
 @keyframes f2{
     0%   {left: 0;}
-    50%   {left: -100%;}
-    100%   {left: -100%;}
+    50%   {left: -120%;}
+    100%   {left: -120%;}
 }
 @keyframes f3{
-    0%   {left: -100%;}
-    50%   {left: -200%;}
-    100%   {left: -200%;}
+    0%   {left: -120%;}
+    50%   {left: -240%;}
+    100%   {left: -240%;}
 }
 @keyframes f4{
     0%   {left: -200%;}
