@@ -160,11 +160,12 @@ html{
     width: 120px;
     text-align: center;
     font-size: 14px;
-    color: white;
+    color: black;
     align-self: stretch;
     justify-content: center;
     &:hover{
-        background-color: #4285f4;
+        background-color: #151c3b;
+        color: white;
         .liwrap__up{
             opacity: 1;
             transform: scaleY(1)!important;
