@@ -151,14 +151,14 @@ function myScript1(){
 }
 
 
-const zhumu = document.getElementById("zhu1");
-zhumu.addEventListener("click", change);
-function change(){
-  zhumu.style.outline = "5px auto grey";
-  zhumu.style.outlineOffset = "-5px";
+// const zhumu = document.getElementById("zhu1");
+// zhumu.addEventListener("click", change);
+// function change(){
+//   zhumu.style.outline = "5px auto grey";
+//   zhumu.style.outlineOffset = "-5px";
   
 	
-}
+// }
 
 
 
