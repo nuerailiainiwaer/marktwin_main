@@ -66,17 +66,22 @@
         color: white;
         border: 1px solid blue; }
 
-.video {
+.dashboard {
+  overflow: hidden;
   height: 400px;
+  width: auto;
   background-color: #f1f3fe; }
-  .video__container {
-    width: 100vw;
+  .dashboard__container {
+    width: 100%;
     display: flex; }
-  .video__text {
+  .dashboard__text {
     flex: 50% 0 0; }
-  .video__logo {
+  .dashboard__logo {
     flex: 50% 0 0; }
-    .video__logo-img {
+    @media only screen and (max-width: 31.25em) {
+      .dashboard__logo {
+        display: none; } }
+    .dashboard__logo-img {
       width: auto;
       height: 22rem;
       margin: 3rem 2rem 0 0; }
@@ -334,12 +339,12 @@ html {
   font-size: 1em; }
 
 .toppic {
+  width: 100%;
   box-shadow: 0px 1px 2px 0px rgba(38, 46, 56, 0.1);
   position: fixed;
   top: 0;
   left: 0;
   height: 44px;
-  width: 100%;
   background-color: #f1f3fe;
   opacity: .9;
   display: flex;
@@ -393,7 +398,6 @@ html {
       border-radius: 30px;
       background-color: #ffc73f;
       color: black;
-      border: 3px solid #3b3b3b;
       transition: ease-in-out all 0.55s; }
   .toppic__zhu1 {
     transition: ease-in-out all .3s;
@@ -1147,6 +1151,52 @@ p {
 .cross {
   display: inline-block;
   text-decoration: line-through; }
+
+.aboutus {
+  height: 480px;
+  width: 100vw; }
+
+.aboutusbox {
+  display: flex; }
+  .aboutusbox__text {
+    margin-left: 4rem;
+    flex: 40% 0 0; }
+  .aboutusbox__left {
+    flex: 50% 0 0;
+    margin: 1rem; }
+  .aboutusbox__picwrap {
+    margin: 4rem;
+    position: relative; }
+    .aboutusbox__picwrap:hover .aboutusbox__pics:not(:hover) {
+      transform: scale(0.95); }
+  .aboutusbox__pics {
+    width: 60%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    position: absolute;
+    z-index: 10;
+    transition: all .2s;
+    outline-offset: .5rem; }
+    .aboutusbox__pics-pic1 {
+      left: 2rem;
+      top: -2rem; }
+    .aboutusbox__pics-pic2 {
+      right: 2rem;
+      top: 2rem; }
+    .aboutusbox__pics-pic3 {
+      left: 20%;
+      top: 8rem; }
+    .aboutusbox__pics:hover {
+      outline: .6rem solid blue;
+      transform: scale(1.05) translateY(-0.5rem);
+      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+      z-index: 20; }
+
+.margin_button {
+  margin-bottom: 1.5rem; }
+
+.paragraph {
+  margin-bottom: 3rem; }
 
 .footer {
   width: 100%;
