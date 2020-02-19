@@ -1338,7 +1338,7 @@ html {
 }
 
 .overall {
-  height: 500px;
+  height: 550px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2423,6 +2423,7 @@ p {
 .bubble_name {
   font-weight: bold;
   text-align: center;
+  margin-bottom: 3px;
 }
 
 .bubble_container .bubbles img {

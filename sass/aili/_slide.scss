@@ -12,7 +12,7 @@ $bp-360: 22.5; // 411px
 $bp-320: 20em; // 411px
 
 .overall{
-        height: 500px;
+        height: 550px;
     @media only screen and (max-width: $bp-smallest) {
         height: 80vh;
     }
