@@ -1,3 +1,4 @@
+  
 {
     "about": "关于我们",
     "courses": "精品课程",
@@ -18,14 +19,14 @@
             "contents4": "项目实习"
         },
         "jobs_services": "求职服务",
-        "Services": {
+        "services": {
             "contents1": "简历精修",
             "contents2": "职业规划服务",
             "contents3": "北美就业管家服务",
             "contents4": "钻石求职套餐"
         }
     },
-    "traning_process": {
+    "training_processes": {
         "title": "培训流程",
         "register": {
             "tilte": "注册报名",
