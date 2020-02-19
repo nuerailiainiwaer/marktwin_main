@@ -411,7 +411,7 @@ function myStopFunction() {
   clearInterval(myVar);
 }
 
-////dom manipulations
+//dom manipulations
 
 document.getElementById("btn-1").addEventListener("click", function(){
 

@@ -11,15 +11,21 @@ $bp-375: 23.43em; // 320px
 $bp-360: 22.5; // 411px
 $bp-320: 20em; // 411px
 
+html{
+    width: auto!important; overflow-x: hidden!important
+}
+
 .slide1{
-    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
-    ;
-    margin-top: -5rem;
-    padding: 8rem 2rem 5rem 2rem;
+    // clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    // ;
+    // margin-top: -5rem;
+    // padding: 8rem 2rem 5rem 2rem;
     
 }
 
 .overall{
+    overflow: hidden;
+    width: 100vw;
         height: 550px;
     @media only screen and (max-width: $bp-smallest) {
         height: 80vh;
@@ -35,6 +41,9 @@ $bp-320: 20em; // 411px
     // }
     display: flex;
     flex-direction: column;
+}
+.slide__main__title{
+    width: 100vw;
 }
 h2, p{
     text-align: center;
@@ -110,6 +119,8 @@ p{
     }
 }
 .slides{
+
+  
     
     width: 300%;
     display: flex;
@@ -164,9 +175,10 @@ p{
 
 
 .slide{
+    padding: 0;
     background-color: #f1f2f5 !important;
     position: relative;
-    width: 40%;
+    width: 33.33333%;
     left: 0;
     flex: 0 0 auto;
     display: flex;
@@ -364,13 +376,13 @@ p{
 }
 @keyframes f2{
     0%   {left: 0;}
-    50%   {left: -120%;}
-    100%   {left: -120%;}
+    50%   {left: -100%;}
+    100%   {left: -100%;}
 }
 @keyframes f3{
-    0%   {left: -120%;}
-    50%   {left: -240%;}
-    100%   {left: -240%;}
+    0%   {left: -100%;}
+    50%   {left: -200%;}
+    100%   {left: -200%;}
 }
 @keyframes f4{
     0%   {left: -200%;}
