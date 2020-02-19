@@ -1,4 +1,11 @@
-
+$base_color_grey:rgb(241,243,254);
+$base_color_black:rgb(20,28,58);
+$base_color_green:rgb(100,237,190);
+$base_color_yellow:rgb(255,199,64);
+$base_color_blue:rgb(100,0,228);
+*{
+    font-family: 'Poppins', sans-serif;
+}
 
 @import "aili/dashboard";
 @import "aili/studydirection";
@@ -9,10 +16,8 @@
 @import "aili/slide";
 @import "aili/insidenextslide";
 @import "aili/aboutus";
-
 @import "pan/pan";
 @import "pan/footer";
-
 @import "pan/buble";
 
 
