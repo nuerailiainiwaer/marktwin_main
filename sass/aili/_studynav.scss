@@ -5,6 +5,14 @@ $screenbelow-415: 26.5em;
  .wrapper * { font-size: 62.5%; }
 
 .primarywrapper{
+
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    ;
+    margin-top: -5rem;
+    padding: 8rem 2rem 5rem 2rem;
+    background-color: #f1f3fe;
+
+   
   
   display: flex;
   flex-direction: column;
@@ -155,7 +163,7 @@ $screenbelow-415: 26.5em;
 }
 .arrow{
   z-index: 1;
-  background-color: white;
+  background-color:#f1f3fe;
   //height: 10rem;
   flex: 0 0 5%;
   //font-size: 3rem;

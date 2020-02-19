@@ -11,7 +11,11 @@ $bp-800: 50em;  //800px
     box-sizing: border-box;
 }
 .studydirection{
-    background-color:#F1F3FE;
+    background-color:$base_color_green;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    ;
+    margin-top: -10rem;
+    padding: 8rem 3rem 8rem 3rem;
 
 }
 .container{
@@ -215,5 +219,9 @@ $bp-800: 50em;  //800px
 }
 .headingPri{
     color: #63EDBF;
+}
+
+.headingPri-direction{
+    color: $base_color_grey;
 }
 

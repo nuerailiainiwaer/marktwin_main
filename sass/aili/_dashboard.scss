@@ -75,9 +75,12 @@
 
 
 .dashboard{
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    padding: 2rem 3rem 5rem 3rem;
+
     overflow: hidden;
    
-    height: 400px;
+    height: 500px;
     width: auto;
     background-color:#f1f3fe;
     &__container{
