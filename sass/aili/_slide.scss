@@ -13,18 +13,18 @@ $bp-320: 20em; // 411px
 
 .overall{
         height: 500px;
-         @media only screen and (max-width: 65em) {
-        height: 41vh;
+    @media only screen and (max-width: $bp-smallest) {
+        height: 80vh;
     }
-    @media only screen and (max-width: 63em) {
-        height: 85vh;
-    }
-    @media only screen and (max-width: 48em) {
-        height: 52vh;
-    }
-    @media only screen and (max-width: 45em) {
-        height: 85vh;
-    }
+    // @media only screen and (max-width: 63em) {
+    //     height: 85vh;
+    // }
+    // @media only screen and (max-width: 48em) {
+    //     height: 52vh;
+    // }
+    // @media only screen and (max-width: 45em) {
+    //     height: 85vh;
+    // }
     display: flex;
     flex-direction: column;
 }
@@ -36,20 +36,21 @@ p{
 }
 .slidershow{
     @media only screen and (max-width: $bp-smallest) {
-        flex: 0 0 80%;
+        flex: 0 0 100%;
+        
     }
-    @media only screen and (max-width: 26em) {
-        flex: 0 0 72%;
-    }
-    @media only screen and (max-width: 24.0em) {
-        flex: 0 0 76%;
-    }
-    @media only screen and (max-width: 23em) {
-        flex: 0 0 79%;
-    }
-    @media only screen and (max-width: 21em) {
-    flex: 0 0 76%;
-    }
+    // @media only screen and (max-width: 26em) {
+    //     flex: 0 0 72%;
+    // }
+    // @media only screen and (max-width: 24.0em) {
+    //     flex: 0 0 76%;
+    // }
+    // @media only screen and (max-width: 23em) {
+    //     flex: 0 0 79%;
+    // }
+    // @media only screen and (max-width: 21em) {
+    // flex: 0 0 76%;
+    // }
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -132,7 +133,8 @@ p{
         background-color: #f1f2f5 !important;
         display: none;
         bottom: .5rem;
-        border-bottom:  3px solid black;
+        // border-bottom:  3px solid black;
+        margin-bottom: .5rem;
         &--contain{
             border: 1px solid black;
             border-radius: 25px; 

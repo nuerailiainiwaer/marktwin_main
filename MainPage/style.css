@@ -739,18 +739,9 @@ html {
   height: 500px;
   display: flex;
   flex-direction: column; }
-  @media only screen and (max-width: 65em) {
+  @media only screen and (max-width: 31.25em) {
     .overall {
-      height: 41vh; } }
-  @media only screen and (max-width: 63em) {
-    .overall {
-      height: 85vh; } }
-  @media only screen and (max-width: 48em) {
-    .overall {
-      height: 52vh; } }
-  @media only screen and (max-width: 45em) {
-    .overall {
-      height: 85vh; } }
+      height: 80vh; } }
 
 h2, p {
   text-align: center; }
@@ -766,19 +757,7 @@ p {
   background-color: #f1f2f5 !important; }
   @media only screen and (max-width: 31.25em) {
     .slidershow {
-      flex: 0 0 80%; } }
-  @media only screen and (max-width: 26em) {
-    .slidershow {
-      flex: 0 0 72%; } }
-  @media only screen and (max-width: 24em) {
-    .slidershow {
-      flex: 0 0 76%; } }
-  @media only screen and (max-width: 23em) {
-    .slidershow {
-      flex: 0 0 79%; } }
-  @media only screen and (max-width: 21em) {
-    .slidershow {
-      flex: 0 0 76%; } }
+      flex: 0 0 100%; } }
 
 .navigation1 {
   width: 100%;
@@ -846,7 +825,7 @@ p {
     background-color: #f1f2f5 !important;
     display: none;
     bottom: .5rem;
-    border-bottom: 3px solid black; }
+    margin-bottom: .5rem; }
     .slides__nav--contain {
       border: 1px solid black;
       border-radius: 25px;
@@ -1074,9 +1053,20 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 1rem; }
+  @media only screen and (max-width: 48em) {
+    .book {
+      margin: 2rem;
+      background-image: none; } }
   .book__form {
     position: absolute;
     margin-left: 5rem; }
+    @media only screen and (max-width: 48em) {
+      .book__form {
+        margin-left: 0;
+        top: 38%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center; } }
 
 .heading1 {
   margin-top: .5rem;
@@ -1091,6 +1081,9 @@ p {
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: .2rem; }
+  @media only screen and (max-width: 48em) {
+    .heading2 {
+      font-size: 2rem; } }
 
 .slidetext {
   font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", sans-serif, BlinkMacSystemFont, "Segoe UI", "Arial", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
@@ -1165,7 +1158,7 @@ p {
   background-color: #6300E4; }
   @media only screen and (max-width: 59.375em) {
     .aboutus {
-      height: 600px; } }
+      height: 650px; } }
 
 .aboutusbox {
   display: flex; }
@@ -1195,15 +1188,26 @@ p {
     z-index: 10;
     transition: all .2s;
     outline-offset: .5rem; }
+    @media only screen and (max-width: 59.375em) {
+      .aboutusbox__pics {
+        width: 100%; } }
     .aboutusbox__pics-pic1 {
       left: 2rem;
       top: -2rem; }
+      @media only screen and (max-width: 59.375em) {
+        .aboutusbox__pics-pic1 {
+          top: -4rem;
+          right: -4rem; } }
     .aboutusbox__pics-pic2 {
       right: 2rem;
       top: 2rem; }
+      @media only screen and (max-width: 59.375em) {
+        .aboutusbox__pics-pic2 {
+          top: 2rem;
+          left: -4rem; } }
     .aboutusbox__pics-pic3 {
-      left: 20%;
-      top: 8rem; }
+      left: 30%;
+      top: 6rem; }
     .aboutusbox__pics:hover {
       outline: .6rem solid blue;
       transform: scale(1.05) translateY(-0.5rem);

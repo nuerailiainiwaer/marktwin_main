@@ -430,16 +430,16 @@ document.getElementById("btn-3").addEventListener("click", function(){
   myStopFunction();
   currentDiv(3);
 });
-document.getElementById("btn-4").addEventListener("click", function(){
-  console.log('me');
-  myStopFunction();
-  currentDiv(4);
-});
-document.getElementById("btn-5").addEventListener("click", function(){
-  console.log('me');
-  myStopFunction();
-  currentDiv(5);
-});
+// document.getElementById("btn-4").addEventListener("click", function(){
+//   console.log('me');
+//   myStopFunction();
+//   currentDiv(4);
+// });
+// document.getElementById("btn-5").addEventListener("click", function(){
+//   console.log('me');
+//   myStopFunction();
+//   currentDiv(5);
+// });
 
 
 
@@ -500,16 +500,25 @@ document.getElementById("btnright").addEventListener("click", function(){
       text="第一期毕业生"
     }else if(slideIndex-1==1){
       text="第二期毕业生"
-    }else if(slideIndex-1==2){
+    }else{
 
       text="第三期毕业生"
-    }else if(slideIndex-1==3){
-      text="第四期毕业生"
-    }else{
-      text="第五期毕业生"
     }
     document.getElementById('dashtext').innerHTML=text;
    }
+
+  //  if(slideIndex-1==0){
+  //   text="第一期毕业生"
+  // }else if(slideIndex-1==1){
+  //   text="第二期毕业生"
+  // }else if(slideIndex-1==2){
+
+  //   text="第三期毕业生"
+  // }else if(slideIndex-1==3){
+  //   text="第四期毕业生"
+  // }else{
+  //   text="第五期毕业生"
+  // }
 
 
 

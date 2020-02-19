@@ -2,7 +2,7 @@
     height: 480px;
     width: 100vw;
     @media only screen and (max-width: 59.375em) {
-        height: 600px;
+        height: 650px;
       }
     background-color: #6300E4;
 }
@@ -44,6 +44,9 @@
 
     &__pics{
         width: 60%;
+        @media only screen and (max-width: 59.375em) {
+            width: 100%;
+          }
         box-shadow: 0 1.5rem 4rem rgba(black, .4);
         border-radius: 2px;
         position: absolute;
@@ -53,18 +56,32 @@
        
 
         &-pic1{
+            @media only screen and (max-width: 59.375em) {
+        top: -4rem;
+        right: -4rem;
+            
+              }
+
+           
             left: 2rem;
             top: -2rem;
     
         }
         &-pic2{
+            @media only screen and (max-width: 59.375em) {
+                top: 2rem;
+                left: -4rem;
+                    
+                      }
+
+          
             right: 2rem;
             top: 2rem;
             
         }
         &-pic3{
-            left: 20%;
-            top: 8rem;
+            left: 30%;
+            top: 6rem;
             
         }
 
