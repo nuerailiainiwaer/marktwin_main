@@ -232,6 +232,13 @@
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0; }
 
+.headwraper {
+  width: 100%;
+  text-align: center; }
+
+.headingPri {
+  color: #63EDBF; }
+
 .navigation {
   display: none;
   flex: 70% 0 0; }
@@ -538,7 +545,6 @@ html {
   font-size: 62.5%; }
 
 .primarywrapper {
-  font-size: 62.5%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -657,8 +663,8 @@ html {
     .arrow {
       display: none !important; } }
   .arrow__icon {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
     align-self: center; }
 
 .arrowsecond {
@@ -676,8 +682,8 @@ html {
       height: 0;
       margin-bottom: 0; } }
   .arrowsecond__icon {
-    width: 3rem;
-    height: 3rem; }
+    width: 2rem;
+    height: 2rem; }
 
 .downitem {
   width: 100%;
@@ -725,8 +731,8 @@ html {
     display: flex;
     justify-content: center; }
     .downitem__lower__icon {
-      width: 2.5rem;
-      height: 2.5rem;
+      width: 2rem;
+      height: 2rem;
       margin-top: 1rem; }
 
 .overall {
@@ -1157,13 +1163,22 @@ p {
   height: 480px;
   width: 100vw;
   background-color: #6300E4; }
+  @media only screen and (max-width: 59.375em) {
+    .aboutus {
+      height: 600px; } }
 
 .aboutusbox {
   display: flex; }
+  @media only screen and (max-width: 59.375em) {
+    .aboutusbox {
+      flex-direction: column; } }
   .aboutusbox__text {
     margin-left: 4rem;
     flex: 40% 0 0;
     color: #FECC52; }
+    @media only screen and (max-width: 59.375em) {
+      .aboutusbox__text {
+        margin-left: 1rem; } }
   .aboutusbox__left {
     flex: 50% 0 0;
     margin: 1rem; }
@@ -1200,9 +1215,9 @@ p {
 
 .paragraph {
   margin-bottom: 3rem; }
-
-.headingPri {
-  color: #fecc52; }
+  @media only screen and (max-width: 59.375em) {
+    .paragraph {
+      margin-bottom: 1rem; } }
 
 .btn-text:link, .btn-text:visited {
   margin-top: 2rem;
@@ -1213,6 +1228,9 @@ p {
   border-bottom: 1px solid #fecc52;
   padding: 3px;
   transition: all .2s; }
+  @media only screen and (max-width: 59.375em) {
+    .btn-text:link, .btn-text:visited {
+      margin-top: 1rem; } }
 
 .btn-text:hover {
   background-color: #fecc52;

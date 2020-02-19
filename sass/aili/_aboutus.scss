@@ -1,14 +1,23 @@
 .aboutus{
     height: 480px;
     width: 100vw;
+    @media only screen and (max-width: 59.375em) {
+        height: 600px;
+      }
     background-color: #6300E4;
 }
 
 .aboutusbox{
     display: flex;
+    @media only screen and (max-width: 59.375em) {
+        flex-direction: column;
+      }
   
 
     &__text{
+        @media only screen and (max-width: 59.375em) {
+            margin-left: 1rem;
+          }
         
        
         margin-left: 4rem;
@@ -77,11 +86,14 @@
 }
 .paragraph{
     margin-bottom: 3rem;
+    @media only screen and (max-width: 59.375em) {
+        margin-bottom: 1rem;
+      }
 }
 
-.headingPri{
-    color: rgb(254,204,82);
-}
+// .headingPri{
+//     color: rgb(254,204,82);
+// }
 
 // .btn-text{
 //    color:rgb(254,204,82);
@@ -93,6 +105,9 @@
     &:link,
     &:visited {
         margin-top: 2rem;
+        @media only screen and (max-width: 59.375em) {
+            margin-top: 1rem;
+          }
         font-size: 1rem;
         color:rgb(254,204,82);
         display: inline-block;
