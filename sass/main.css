@@ -2808,6 +2808,11 @@ p {
 }
 
 .studentFeedback {
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  margin-top: -2rem;
+  padding: 4rem 0rem 5rem 0rem;
+  background-color: #141c3a;
   background-color: #141c3a;
   color: white;
   font-size: 1.3rem;
