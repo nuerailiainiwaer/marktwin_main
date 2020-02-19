@@ -11,11 +11,11 @@ $bp-375: 23.43em; // 320px
 $bp-360: 22.5; // 411px
 $bp-320: 20em; // 411px
 
-.slide{
-    // clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
-    // ;
-    // margin-top: -5rem;
-    // padding: 8rem 2rem 5rem 2rem;
+.slide1{
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    ;
+    margin-top: -5rem;
+    padding: 8rem 2rem 5rem 2rem;
     
 }
 
@@ -60,7 +60,7 @@ p{
     // flex: 0 0 76%;
     // }
     width: 100vw;
-    height: 500px;
+    height: 600px;
     overflow: hidden;
     position: relative;
     background-color: #f1f2f5 !important;

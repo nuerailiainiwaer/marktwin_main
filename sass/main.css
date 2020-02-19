@@ -159,7 +159,7 @@
   background-color: #64edbe;
   -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
           clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
-  margin-top: -10rem;
+  margin-top: 4rem;
   padding: 8rem 3rem 8rem 3rem;
 }
 
@@ -1353,6 +1353,13 @@ html {
   margin-top: 1rem;
 }
 
+.slide1 {
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+          clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+  margin-top: -5rem;
+  padding: 8rem 2rem 5rem 2rem;
+}
+
 .overall {
   height: 550px;
   display: -webkit-box;
@@ -1380,7 +1387,7 @@ p {
 
 .slidershow {
   width: 100vw;
-  height: 500px;
+  height: 600px;
   overflow: hidden;
   position: relative;
   background-color: #f1f2f5 !important;
