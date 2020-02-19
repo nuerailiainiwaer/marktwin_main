@@ -1357,6 +1357,14 @@ html {
   overflow-x: hidden !important;
 }
 
+.slide1 {
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+          clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+  margin-top: -5.5rem;
+  padding: 9rem 0rem 5rem 0rem;
+  background-color: #141c3a;
+}
+
 .overall {
   overflow: hidden;
   width: 100vw;
@@ -1426,6 +1434,7 @@ p {
 
 .bar {
   background-color: white;
+  border-radius: 25%;
   padding: .1rem .5rem .1rem .5rem;
   width: 100px;
   height: 40px;
@@ -1433,6 +1442,7 @@ p {
   outline: none;
   font-size: .8rem;
   cursor: pointer;
+  margin: .5rem;
 }
 
 .bar:hover {
