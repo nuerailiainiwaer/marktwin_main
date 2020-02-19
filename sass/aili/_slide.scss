@@ -19,7 +19,7 @@ html{
     clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
     ;
     margin-top: -5.5rem;
-    padding: 9rem 0rem 5rem 0rem;
+    padding: 8rem 0rem 5rem 0rem;
     background-color: $base_color_black;
     
 }
@@ -45,14 +45,19 @@ html{
 }
 .slide__main__title{
     width: 100vw;
+    background-color: $base_color_black;
+
 }
 h2, p{
     text-align: center;
+    color: $base_color_green;
 }
 p{
     margin-bottom: 1rem;
 }
 .slidershow{
+
+    background-color: $base_color_black;
     @media only screen and (max-width: $bp-smallest) {
         flex: 0 0 100%;
         
