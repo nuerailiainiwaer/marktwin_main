@@ -1,0 +1,141 @@
+
+.guide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba($base_color_black,0.8);
+  flex-wrap: wrap;
+  max-width: 100%;
+  color:$text_color_white;
+}
+.guide .Introblock {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.guide .Introblock .card a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+  text-decoration: none;
+  color:$text_color_white;
+}
+
+.guide .Introblock .card a:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.guide .Introblock img {
+  width: 120px;
+  height: 120px;
+}
+.fullStack {
+  width: 100%;
+  text-align: center;
+  background-color: $base_color_grey;
+}
+.fullStack .bref {
+  width: 100%;
+}
+
+.fullStack .bref h1 {
+  color: $text_color_black;
+  margin-top:0;
+  padding-top:1rem;
+}
+.fullStack .bref p {
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+.fullStack .courses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.fullStack .courses .course {
+  max-width: 100vw;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1rem;
+}
+.fullStack img {
+  max-width: 100vw;
+  width: 25rem;
+}
+
+.fullStack .courses .course .label {
+  display: flex;
+  padding: 0.5rem;
+}
+.fullStack .courses .course .label i {
+  padding: 0 0.8rem;
+}
+.fullStack button {
+  outline: none;
+  border: none;
+  color: white;
+  background: $base_color_yellow;
+ 
+}
+.ba {
+  width: 100%;
+  text-align: center;
+}
+.ba .bref {
+  width: 100%;
+}
+
+.ba .bref h1 {
+  color: #247BCA;
+}
+.ba .bref p {
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+.ba .baCourses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ba .baCourses .baCourse {
+  max-width: 100vw;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1rem;
+}
+.ba img {
+  max-width: 100vw;
+  width: 25rem;
+}
+
+.ba .baCourses .baCourse .label {
+  display: flex;
+  padding: 0.5rem;
+}
+.ba .baCourses .baCourse .label i {
+  padding: 0 0.8rem;
+}
+.ba button {
+  outline: none;
+  border: none;
+  color: white;
+  background: #247BCA;
+
+}
