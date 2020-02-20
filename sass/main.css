@@ -2366,6 +2366,7 @@ p {
 .footer .footer_wechat img {
   width: 100px;
   height: 100px;
+  background-color: white;
 }
 
 .footer_content {
