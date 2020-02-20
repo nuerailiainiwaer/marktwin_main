@@ -1,5 +1,5 @@
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins','Noto Sans SC',sans-serif;
 }
 
 .logopart {
@@ -160,7 +160,9 @@
   -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
           clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
   margin-top: -5.5rem;
-  padding: 8rem 3rem 8rem 3rem;
+
+  padding: 8rem 0rem 8rem 0rem;
+
 }
 
 .container {
@@ -950,7 +952,7 @@ html {
   -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
           clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
   margin-top: -5rem;
-  padding: 8rem 2rem 5rem 2rem;
+  padding: 8rem 0rem 5rem 0rem;
   background-color: #f1f3fe;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1152,10 +1154,11 @@ html {
 
 .item {
   z-index: 2;
+  width: 30rem;
   height: 13rem;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 28.33333%;
-          flex: 0 0 28.33333%;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
   font-size: 3rem;
 }
 
@@ -2363,6 +2366,7 @@ p {
 .footer .footer_wechat img {
   width: 100px;
   height: 100px;
+  background-color: white;
 }
 
 .footer_content {
