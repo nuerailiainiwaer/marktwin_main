@@ -7,6 +7,7 @@
     "sources": "免费资源",
     "login": "申请课程",
     "register": "注册",
+    "trial":"申请试听",
     "latest_courses": "最新课程",
     "trianing_direction": {
         "title": "培训方向",
@@ -69,6 +70,26 @@
             "contents4":"培训&实习质量调查问卷获取优惠券",
             "contents5":"毕业酒席"
         }
+    },
+    "why_us":{
+        "title":"为什么选择我们",
+        "contents1":"多个主导项目实践的专家讲师",
+        "contents2":"零基础到入职专业课程",
+        "contents3":"线上线下同步课程",
+        "contents4":"24/7答疑",
+        "contents5":"真实实践项目",
+        "contents6":"一站式高薪入职",
+        "contents7":"92%高薪就业率",
+        "contents8":"100%学员满意度",
+        "contents9":"CTO/VP面试辅导",
+        "contents10":"SDLC闭环体系化课程"
+    },
+    "students":{
+        "offer":"学员的offer",
+        "offer_contents":"我们已经帮助上千名同学立足IT行业，通过我们的培训 与实战，学院能轻松应对各大 IT 公司的面试，并找到理想的工作，WinBigCareer，让你轻松实现高薪梦想。",
+        "numbers":"位学生",
+        "satisfaction":"满意度",
+        "feedback":"来自学员的反馈"
     },
     "footer": {
         "fullStack": "全栈工程师",
