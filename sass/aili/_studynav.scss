@@ -8,9 +8,9 @@ $screenbelow-415: 26.5em;
 
   clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
     ;
-    margin-top: -5rem;
-    padding: 8rem 0rem 5rem 0rem;
-    background-color: #f1f3fe;
+    margin-top: -5.5rem;
+    padding: 4rem 0rem 5rem 0rem;
+    background-color: $base_color_yellow;
 
    
   
@@ -134,7 +134,7 @@ $screenbelow-415: 26.5em;
   flex-wrap: wrap;
 
   width: 80%;
-  margin: 20px auto;
+  
   @media only screen and (max-width: $screenbelow-415) {
     width: 100%;
     margin: 0;
@@ -164,7 +164,7 @@ $screenbelow-415: 26.5em;
 }
 .arrow{
   z-index: 1;
-  background-color:#f1f3fe;
+  background-color:$base_color_yellow;
   //height: 10rem;
   flex: 0 0 5%;
   //font-size: 3rem;
@@ -180,6 +180,7 @@ $screenbelow-415: 26.5em;
     width: 2rem;
     height: 2rem;
     align-self: center;
+    
 
   }
 }
@@ -214,7 +215,7 @@ $screenbelow-415: 26.5em;
     background:#f1f2f5;
     height: 9rem;
     display: flex;
-    border-radius: 2rem;
+    border-radius: 15px;
     box-shadow: 0 1.5rem 4rem rgba(black, .15);
     transition: transform .3s;
 
@@ -243,7 +244,7 @@ $screenbelow-415: 26.5em;
         
         // display: inline-block;
         display: flex;
-        border: 1px solid blue;
+        border: 1px solid $base_color_green;
         border-radius: 1.5rem;
         align-items: center;
         justify-content: center;
@@ -287,6 +288,10 @@ $screenbelow-415: 26.5em;
     }
 
   }
+}
+
+.icon-arrow-right{
+  color: white;
 }
 
 

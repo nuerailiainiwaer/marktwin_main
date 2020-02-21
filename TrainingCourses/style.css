@@ -225,6 +225,10 @@
   background: #247BCA;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 .tutors {
   text-align: center;
   width: 100%;

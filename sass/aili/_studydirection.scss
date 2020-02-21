@@ -11,12 +11,11 @@ $bp-800: 50em;  //800px
     box-sizing: border-box;
 }
 .studydirection{
-    background-color:$base_color_green;
+    background-color:$base_color_grey;
     clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
     ;
     margin-top: -5.5rem;
-
-    padding: 8rem 0rem 8rem 0rem;
+    padding: 4rem 0rem 5rem 0rem;
 
 
 }
@@ -33,6 +32,7 @@ $bp-800: 50em;  //800px
     }
 }
 .card{
+    border-radius: 15px;
     height: 25rem;
     @media only screen and (max-width: $bp-800) {
         flex: 80% 0 0;
@@ -40,7 +40,7 @@ $bp-800: 50em;  //800px
         height: 25rem;
     }
     flex: 25% 0 0;
-    margin: 3rem;
+    margin: 0 3rem 3rem 3rem;
     position: relative;
     &__side{
         height: 100%;
@@ -59,7 +59,7 @@ $bp-800: 50em;  //800px
         &--up{
             background-size: cover;
             height: 12rem;
-            background-blend-mode: screen;
+            background-blend-mode: lighten;
             clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
             border-top-left-radius: 3px;
             border-top-right-radius: 3px;
@@ -67,18 +67,19 @@ $bp-800: 50em;  //800px
                 filter:blur(1px);
             }
             &-1{
-                background-image: linear-gradient(to right bottom, #ffb900,  #ff7730), 
-            url(../MainPage/images/codeme.jpg);
+                background-image: linear-gradient(to right bottom, $base_color_green,  #fce895), 
+                url(../../MainPage/images/codeme.jpg);
             }
             &-2{
-                background-image: linear-gradient(to right bottom, #ffb900,  #ff7730), 
-            url(../MainPage/images/inter.jpg);
+                background-image: linear-gradient(to right bottom, $base_color_green,  #fce895), 
+            url(../../MainPage/images/inter.jpg);
 
             }
         }
 
     }
     &__heading{
+        // border-radius: 25px;
         font-size: 1.5rem;
         font-weight: 200;
         text-transform: uppercase;
@@ -93,7 +94,7 @@ $bp-800: 50em;  //800px
             &--1 {
                 background-image: linear-gradient(to right bottom, 
                 rgba(#ffb900, .85), 
-                rgba(#ff7730, .85));
+                rgba(#ffe578, .85));
             }
         }
     }
