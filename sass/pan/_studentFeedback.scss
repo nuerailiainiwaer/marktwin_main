@@ -1,4 +1,11 @@
 .studentFeedback {
+  position: relative;
+    z-index: -5000;
+
+    @media only screen and (max-width: 31.25em) {
+        margin-top: -11rem;
+        padding: 9rem 0rem 8rem 0rem;
+    }
 
 
   

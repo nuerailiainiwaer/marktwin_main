@@ -16,10 +16,17 @@ html{
 }
 
 .slide1{
+    position: relative;
+    z-index: 2000;
     clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    
     margin-top: -5.5rem;
     padding: 4rem 0rem 5rem 0rem;
     background-color:  #151c3b;
+    @media only screen and (max-width: 31.25em) {
+        margin-top: -8rem;
+        padding: 4rem 0rem 8rem 0rem;
+    } 
 }
 .overall{
     overflow: hidden;
@@ -27,9 +34,10 @@ html{
     height: 500px;
     display: flex;
     flex-direction: column;
-    @media only screen and (max-width: $bp-smallest) {
-        height: 80vh;
-    }
+   
+    @media only screen and (max-width: 31.25em) {
+        height: 480px;
+    } 
 }
 .slide__main__title{
     width: 100vw;
@@ -127,8 +135,7 @@ p{
         flex: 1;
         background-color: #f1f2f5 !important;
         display: none;
-        bottom: .5rem;
-        margin-bottom: .5rem;
+        padding: 1rem 0 1rem 0;
         &--contain{
             border: 1px solid black;
             border-radius: 25px; 
@@ -163,12 +170,13 @@ p{
     @media only screen and (max-width: $bp-smallest) {
         width: 100%;
         overflow: hidden;
-    }
-    @media only screen and (max-width: $bp-smallest) {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         align-content: flex-start;
+    }
+    @media only screen and (max-width: $bp-smallest) {
+       
     }
 }
     // &__dash{

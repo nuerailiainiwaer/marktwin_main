@@ -1,9 +1,17 @@
 .whyUs{
 
+    position: relative;
+    z-index: -4000;
+
+    @media only screen and (max-width: 31.25em) {
+        margin-top: -11rem;
+        padding: 9rem 0rem 10rem 0rem;
+    }
+
     clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
     ;
     margin-top: -5.5rem;
-    padding: 4rem 0rem 5rem 0rem;
+    padding: 4rem 0rem 7rem 0rem;
 
     
     text-align: center;

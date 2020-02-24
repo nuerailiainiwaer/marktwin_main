@@ -87,49 +87,49 @@
 
 // Ali javascript here
 
-var mama = document.getElementById("apam1");
-var meimei = document.getElementById("baobao1");
+// var mama = document.getElementById("apam1");
+// var meimei = document.getElementById("baobao1");
 
-mama.addEventListener("click", displayDate);
+// mama.addEventListener("click", displayDate);
 
-function displayDate() {
-  meimei.classList.toggle("final");
-}
+// function displayDate() {
+//   meimei.classList.toggle("final");
+// }
 
-mama.addEventListener("mouseleave", myScript2);
+// mama.addEventListener("mouseleave", myScript2);
 
-function myScript2() {
-  meimei.classList.remove("final");
-}
+// function myScript2() {
+//   meimei.classList.remove("final");
+// }
 
-var mama1 = document.getElementById("apam2");
-var meimei1 = document.getElementById("baobao2");
+// var mama1 = document.getElementById("apam2");
+// var meimei1 = document.getElementById("baobao2");
 
-mama1.addEventListener("click", displayDate1);
+// mama1.addEventListener("click", displayDate1);
 
-function displayDate1() {
-  meimei1.classList.add("final");
-}
+// function displayDate1() {
+//   meimei1.classList.add("final");
+// }
 
-mama1.addEventListener("mouseleave", myScript);
+// mama1.addEventListener("mouseleave", myScript);
 
-function myScript() {
-  meimei1.classList.remove("final");
-}
+// function myScript() {
+//   meimei1.classList.remove("final");
+// }
 
-var mama2 = document.getElementById("apam3");
-var meimei2 = document.getElementById("baobao3");
+// var mama2 = document.getElementById("apam3");
+// var meimei2 = document.getElementById("baobao3");
 
-mama2.addEventListener("click", displayDate2);
-function displayDate2() {
-  meimei2.classList.add("final");
-}
+// mama2.addEventListener("click", displayDate2);
+// function displayDate2() {
+//   meimei2.classList.add("final");
+// }
 
-mama2.addEventListener("mouseleave", myScript1);
+// mama2.addEventListener("mouseleave", myScript1);
 
-function myScript1() {
-  meimei2.classList.remove("final");
-}
+// function myScript1() {
+//   meimei2.classList.remove("final");
+// }
 
 // const zhumu = document.getElementById("zhu1");
 // zhumu.addEventListener("click", change);
@@ -152,8 +152,7 @@ var myVar1;
 var btn1 = document.getElementById("r1");
 var btn2 = document.getElementById("r2");
 var btn3 = document.getElementById("r3");
-// var btn4 = document.getElementById("r4");
-// var btn5 = document.getElementById("r5");
+
 
 btn1.addEventListener("mouseenter", firstbtn);
 function firstbtn() {
@@ -264,81 +263,6 @@ function firstbtnlev4() {
   }
   document.getElementById("slidescontain").style.width = "300%";
 }
-// btn4.addEventListener("mouseenter",firstbtn3);
-// function firstbtn3(){
-
-//   dots2.style.WebkitAnimation = "none";
-
-//     for (var i = 0; i < bar1.length; i++) {
-//       bar1[i].className = bar1[i].className.replace(" red", "");
-//     }
-//     intervalManager(false);
-
-//     var x = document.getElementsByClassName("slide");
-//     for (i = 0; i < x.length; i++) {
-//         x[i].classList.remove("addno");
-//       }
-
-//     x[0].classList.add("addno");
-//     x[1].classList.add("addno");
-//     x[2].classList.add("addno");
-//     x[4].classList.add("addno");
-
-//     document.getElementById("slidescontain").style.width="100%";
-//     x[3].style.WebkitAnimation = "none";
-//     x[3].style.WebkitAnimation ="appear .6s";
-//     x[3].style.width="100%";
-// }
-// btn4.addEventListener("mouseleave",firstbtnlev5);
-// function firstbtnlev5(){
-//   intervalManager(true);
-//   y=1;
-//   var x = document.getElementsByClassName("slide");
-//   for (i = 0; i < x.length; i++) {
-//       x[i].classList.remove("addno");
-//       x[i].style.width="20%";
-//   }
-//   document.getElementById("slidescontain").style.width="500%";
-// }
-
-// btn5.addEventListener("mouseenter",firstbtn4);
-// function firstbtn4(){
-//   dots2.style.WebkitAnimation = "none";
-
-//   for (var i = 0; i < bar1.length; i++) {
-//     bar1[i].className = bar1[i].className.replace(" red", "");
-//   }
-//   intervalManager(false);
-
-//     var x = document.getElementsByClassName("slide");
-//     for (i = 0; i < x.length; i++) {
-//         x[i].classList.remove("addno");
-//       }
-
-//     x[0].classList.add("addno");
-//     x[1].classList.add("addno");
-//     x[2].classList.add("addno");
-//     x[3].classList.add("addno");
-
-//     document.getElementById("slidescontain").style.width="100%";
-//     x[4].style.WebkitAnimation = "none";
-//     x[4].style.WebkitAnimation ="appear .6s";
-//     x[4].style.width="100%";
-// }
-// btn5.addEventListener("mouseleave",firstbtnlev);
-// function firstbtnlev(){
-//   intervalManager(true);
-//   y=1;
-//   var x = document.getElementsByClassName("slide");
-//   for (i = 0; i < x.length; i++) {
-//       x[i].classList.remove("addno");
-//       // x[i].style.WebkitAnimation ="20s anwar infinite";
-//       x[i].style.width="20%";
-//   }
-//   document.getElementById("slidescontain").style.width="500%";
-
-// }
-/////under 500px
 var slideIndex = 1;
 
 if (window.matchMedia("(max-width: 500px)").matches) {
@@ -365,8 +289,6 @@ function myStopFunction() {
   clearInterval(myVar);
 }
 
-//dom manipulations
-
 document.getElementById("btn-1").addEventListener("click", function() {
   console.log("me");
   myStopFunction();
@@ -382,16 +304,7 @@ document.getElementById("btn-3").addEventListener("click", function() {
   myStopFunction();
   currentDiv(3);
 });
-// document.getElementById("btn-4").addEventListener("click", function(){
-//   console.log('me');
-//   myStopFunction();
-//   currentDiv(4);
-// });
-// document.getElementById("btn-5").addEventListener("click", function(){
-//   console.log('me');
-//   myStopFunction();
-//   currentDiv(5);
-// });
+
 
 document.getElementById("btnleft").addEventListener("click", function() {
   myStopFunction();
@@ -450,21 +363,8 @@ function showDivs(n) {
   } else {
     text = "第三期毕业生";
   }
-  document.getElementById("dashtext").innerHTML = text;
+  document.getElementById("dashtext").innerHTML =text;
 }
-
-//  if(slideIndex-1==0){
-//   text="第一期毕业生"
-// }else if(slideIndex-1==1){
-//   text="第二期毕业生"
-// }else if(slideIndex-1==2){
-
-//   text="第三期毕业生"
-// }else if(slideIndex-1==3){
-//   text="第四期毕业生"
-// }else{
-//   text="第五期毕业生"
-// }
 
 var slideIndex1 = 1;
 var intervalID = null;

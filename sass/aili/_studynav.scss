@@ -5,6 +5,8 @@ $screenbelow-415: 26.5em;
   font-size: 62.5%; 
 }
 .primarywrapper{
+  position: relative;
+    z-index: -3000;
 
   clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
   margin-top: -5.5rem;
@@ -14,6 +16,10 @@ $screenbelow-415: 26.5em;
   flex-direction: column;
   align-items: center;
   animation: moveup .5s ease-out .75s;
+  @media only screen and (max-width: 31.25em) {
+    margin-top: -10.5rem;
+    padding: 9rem 0rem 8rem 0rem;
+  } 
   &__topic{
     font-size: 3rem;
     font-weight: bold;

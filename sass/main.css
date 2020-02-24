@@ -12,7 +12,7 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin: 5rem 2rem 0 0;
+  margin: 5rem 0rem 0 0;
 }
 
 .logopart--box {
@@ -183,11 +183,20 @@
 }
 
 .studydirection {
+  position: relative;
+  z-index: -2000;
   background-color: #f1f3fe;
   -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
           clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
   margin-top: -5.5rem;
   padding: 4rem 0rem 5rem 0rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .studydirection {
+    margin-top: -7.5rem;
+    padding: 6rem 0rem 8rem 0rem;
+  }
 }
 
 .container {
@@ -445,9 +454,9 @@
 
 .navigation {
   display: none;
-  -webkit-box-flex: 70%;
-      -ms-flex: 70% 0 0px;
-          flex: 70% 0 0;
+  -webkit-box-flex: 30%;
+      -ms-flex: 30% 0 0px;
+          flex: 30% 0 0;
 }
 
 .navigation__checkbox {
@@ -690,6 +699,12 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .toppic__button {
+    display: none;
+  }
 }
 
 .toppic__bcontainer {
@@ -965,6 +980,8 @@ html {
 }
 
 .primarywrapper {
+  position: relative;
+  z-index: -3000;
   -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
           clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
   margin-top: -5.5rem;
@@ -982,6 +999,13 @@ html {
           align-items: center;
   -webkit-animation: moveup .5s ease-out .75s;
           animation: moveup .5s ease-out .75s;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .primarywrapper {
+    margin-top: -10.5rem;
+    padding: 9rem 0rem 8rem 0rem;
+  }
 }
 
 .primarywrapper__topic {
@@ -1379,11 +1403,20 @@ html {
 }
 
 .slide1 {
+  position: relative;
+  z-index: 2000;
   -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
           clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
   margin-top: -5.5rem;
   padding: 4rem 0rem 5rem 0rem;
   background-color: #151c3b;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .slide1 {
+    margin-top: -8rem;
+    padding: 4rem 0rem 8rem 0rem;
+  }
 }
 
 .overall {
@@ -1401,7 +1434,7 @@ html {
 
 @media only screen and (max-width: 31.25em) {
   .overall {
-    height: 80vh;
+    height: 480px;
   }
 }
 
@@ -1547,8 +1580,7 @@ p {
           flex: 1;
   background-color: #f1f2f5 !important;
   display: none;
-  bottom: .5rem;
-  margin-bottom: .5rem;
+  padding: 1rem 0 1rem 0;
 }
 
 .slides__nav--contain {
@@ -1609,11 +1641,6 @@ p {
   .slide {
     width: 100%;
     overflow: hidden;
-  }
-}
-
-@media only screen and (max-width: 31.25em) {
-  .slide {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -2536,6 +2563,8 @@ p {
 }
 
 .studentFeedback {
+  position: relative;
+  z-index: -5000;
   -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
           clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
   margin-top: -6rem;
@@ -2558,6 +2587,13 @@ p {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .studentFeedback {
+    margin-top: -11rem;
+    padding: 9rem 0rem 8rem 0rem;
+  }
 }
 
 .studentFeedback .sf_intro {
@@ -2630,14 +2666,23 @@ p {
 }
 
 .whyUs {
+  position: relative;
+  z-index: -4000;
   -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
           clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
   margin-top: -5.5rem;
-  padding: 4rem 0rem 5rem 0rem;
+  padding: 4rem 0rem 7rem 0rem;
   text-align: center;
   font-size: 1.3rem;
   min-height: 400px;
   background-color: #f1f3fe;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .whyUs {
+    margin-top: -11rem;
+    padding: 9rem 0rem 10rem 0rem;
+  }
 }
 
 .whyUs .wReasons {
