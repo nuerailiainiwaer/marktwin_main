@@ -1,0 +1,248 @@
+$screenbelow-1100: 75em;
+
+$screenbelow-415: 26.5em;
+$screenbelow-500: 31.25em;
+
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+
+}
+html{
+    font-size: 1em;
+   
+}
+
+.toppic{
+    box-shadow: 0px 1px 2px 0px rgba(38, 46, 56, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    @media only screen and (max-width: 31.25em) {
+        height: 55px;
+    } 
+    height: 44px;
+    width: 100%;
+    background-color: #3b3b3b;
+    opacity: .9;
+    display: flex;
+    transition: all 350ms ease-out;
+    z-index: 2000;
+    &__logo{
+        align-self: center;
+
+        flex: 25% 0 0;
+        @media only screen and (max-width: 31.25em) {
+            flex: 70% 0 0;
+        } 
+        display: flex;
+        justify-content: center;
+        &--img{
+            height: 100%;
+            width: 8rem;
+        }
+    }
+    &__container{
+        display: flex;
+        justify-content: center;
+        color: white;
+        list-style: none;
+        flex: 50% 0 0;
+        align-items: center;
+        @media only screen and (max-width: 31.25em) {
+            display: none;
+        } 
+    }
+    &__button{
+        flex: 25% 0 0;
+        display: flex;
+    }
+    &__bcontainer{
+        width: 100%;
+        margin: auto 0 auto 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    &__btn1{
+        display: inline-block;
+        color: black;
+        font-size: 16px;
+        padding: 6px 14px;
+        cursor: pointer;
+        text-align: center;
+        outline: none;
+        &--zhu{
+            background-color: #3b3b3b;
+            color: white;
+            border: 3px solid #3b3b3b;
+        }
+        &--denglu{
+            border-radius: 30px;
+            background-color: blue;
+            color: white;
+            border: 3px solid #3b3b3b ;
+            transition: ease-in-out all 0.55s;
+            &:hover{
+                background-color: #3b3b3b;
+                border: 3px solid blue;
+            }
+        }
+    }
+    &__zhu1{
+        transition: ease-in-out all .3s;
+        border: 2px solid transparent;
+    }
+    &__denglu1{
+        display: flex;
+        align-items: center;
+        transition: ease-in-out all .3s;
+        border: 2px solid transparent;
+        &:focus{
+            outline-color: grey;
+            outline-style: auto;
+            outline-width: 5px;
+            outline-offset: -5px;
+        }
+    }
+
+   
+
+   
+   
+    
+
+
+
+}
+
+.liwrap{
+    display: flex;
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    align-self: stretch;
+    justify-content: center;
+    &:hover{
+        background-color: #4285f4;
+        .liwrap__up{
+            opacity: 1;
+            transform: scaleY(1)!important;
+            top: 44px;
+        }
+    }
+    
+    &__up{
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        width: 120px;
+        background-color: white;
+        box-shadow: 0 0 6px 0 rgba(0,0,0,.2);
+        transition-property: all;
+        transform-origin: top;
+        transform: scaleY(0.16666666666); 
+        transition-duration:.5s;
+        
+        &--item{
+            height: 38px;
+            line-height: 38px;
+            border-top: 1px solid #f2f2f2;
+            position: relative;
+
+            &:hover{
+                .liwrap__up--content{
+                    color: blue;
+                }
+               
+
+            }
+
+            &::before{
+                content: "";
+                position: absolute;
+                color: black;
+                bottom: 0;
+                left: 0%;
+                height: 10%;
+                width: 3%;
+                background-color: red;
+                transform: scaleY(0);
+                transition: transform .2s,
+                            width .4s cubic-bezier(1,0,0,1) .2s,
+                            background-color .1s;
+                
+            }
+           
+            &:hover::before{
+                transform: scaleY(1);
+                width: 100%;
+
+            }
+            
+
+            
+
+        }
+        &--content{
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+            color: black;
+            font-size: 12px;
+           
+        }
+    }
+    &__down{
+        display: flex;
+        align-items: center;
+    }
+
+}
+.btn_language button{
+    outline:none;
+    width:3rem;
+    height:1.5rem;
+    margin-top:0.3rem;
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    80% {
+        transform: translateX(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes box{
+    0% {
+        border: 1px black solid;
+        
+    }
+
+}

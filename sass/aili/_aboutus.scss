@@ -6,85 +6,61 @@
       }
     background-color: $base_color_black;
 }
-
 .aboutusbox{
     display: flex;
     @media only screen and (max-width: 59.375em) {
         flex-direction: column;
-      }
-  
-
-    &__text{
-        @media only screen and (max-width: 59.375em) {
-            margin-left: 1rem;
-          }
-        
-       
+    }
+     &__text{
         margin-left: 4rem;
         flex: 40% 0 0;
         color: #FECC52;
+        @media only screen and (max-width: 59.375em) {
+            margin-left: 1rem;
+        }
     }
-
     &__left{
         flex: 50% 0 0;
         margin: 1rem;
-
-       
     }
     &__picwrap{
         margin: 4rem;
         position: relative;
-
         &:hover .aboutusbox__pics:not(:hover) {
             transform: scale(.95);
         }
-       
-
     }
-
     &__pics{
         width: 60%;
-        @media only screen and (max-width: 59.375em) {
-            width: 100%;
-          }
         box-shadow: 0 1.5rem 4rem rgba(black, .4);
         border-radius: 2px;
         position: absolute;
         z-index: 10;
         transition: all .2s;
         outline-offset: .5rem;
-       
-
+        @media only screen and (max-width: 59.375em) {
+            width: 100%;
+        }
         &-pic1{
-            @media only screen and (max-width: 59.375em) {
-        top: -4rem;
-        right: -4rem;
-            
-              }
-
-           
             left: 2rem;
             top: -2rem;
-    
+            @media only screen and (max-width: 59.375em) {
+                top: -4rem;
+                right: -4rem;
+            }
         }
         &-pic2{
+            right: 2rem;
+            top: 2rem;
             @media only screen and (max-width: 59.375em) {
                 top: 2rem;
                 left: -4rem;
-                    
-                      }
-
-          
-            right: 2rem;
-            top: 2rem;
-            
+            }
         }
         &-pic3{
             left: 30%;
             top: 6rem;
-            
         }
-
         &:hover {
             outline: .6rem solid blue;
             transform: scale(1.05) translateY(-.5rem);
@@ -92,12 +68,7 @@
             z-index: 20;
         }
     }
-  
-
-
-
 }
-
 .margin_button{
     margin-bottom: 1.5rem;
 }
@@ -108,15 +79,6 @@
       }
 }
 
-// .headingPri{
-//     color: rgb(254,204,82);
-// }
-
-// .btn-text{
-//    color:rgb(254,204,82);
-//    font-weight: bold;
-//    text-decoration: none;
-// }
 
 .btn-text {
     &:link,

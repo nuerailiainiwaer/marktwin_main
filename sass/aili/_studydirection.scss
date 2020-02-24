@@ -1,11 +1,9 @@
 
 $bp-medium: 56.25em;   // 900px
-
 $bp-800: 50em;  //800px
 *,
 *::after,
 *::before {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,18 +11,11 @@ $bp-800: 50em;  //800px
 .studydirection{
     background-color:$base_color_grey;
     clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
-    ;
     margin-top: -5.5rem;
     padding: 4rem 0rem 5rem 0rem;
-
-
 }
 .container{
-    
-   
-    
     width: 100vw;
-    
     display: flex;
     justify-content: center;
     @media only screen and (max-width: $bp-800) {
@@ -32,8 +23,8 @@ $bp-800: 50em;  //800px
     }
 }
 .card{
-    border-radius: 15px;
-    height: 25rem;
+        border-radius: 15px;
+        height: 25rem;
     @media only screen and (max-width: $bp-800) {
         flex: 80% 0 0;
         margin:1rem;
@@ -79,7 +70,6 @@ $bp-800: 50em;  //800px
 
     }
     &__heading{
-        // border-radius: 25px;
         font-size: 1.5rem;
         font-weight: 200;
         text-transform: uppercase;
@@ -130,33 +120,20 @@ $bp-800: 50em;  //800px
     &:hover .btn {
          display: inline-block;
     }
-    &:hover &__back {
-        // opacity: 1;
-      
-        // transform: rotateY(0);
-    }
 }
 .man{
     top: 4.5rem;
     position: absolute;
     width: 100%;
     height: 2rem;
-    
     display: block;
     text-align: center;
 }
-
-
 @keyframes example {
     from {transform:translateY(10px);}
     to {transform:translateY(0);}
-  }
-
-
-
+}
 .btn{
- 
-
     &,
     &:link,
     &:visited {
@@ -164,33 +141,22 @@ $bp-800: 50em;  //800px
         display: none;
         @media only screen and (max-width: $bp-800) {
             display: inline-block;
-            
-            
-            
         }
         opacity: .5;
         background-color: white;
-        // border: 5px solid black;
         text-transform: uppercase;
         text-decoration: none;
-         padding: .5rem 1rem;
-        
-        
+        padding: .5rem 1rem;
         border-radius: 10rem;
         transition: all .2s;
-       
         font-size: 1rem;
-
-        
         border: none;
         cursor: pointer;
-
         animation-name: example;
         animation-duration: .5s;
     }
     &::after {
         content: "";
-       
         height: 100%;
         width: 100%;
         border-radius: 10rem;
@@ -201,29 +167,22 @@ $bp-800: 50em;  //800px
         transition: all .4s;
         background-color: white;
     }
-
     &:hover {
         transform: translateY(-3px);
         box-shadow: 0 1rem 2rem rgba(black,.2);
-
         &::after {
             transform: scaleX(1.4) scaleY(1.6);
             opacity: 0;
         }
     }
-    
-
 }
-
 .headwraper{
-    
     width: 100%;
     text-align: center;
 }
 .headingPri{
     color: #63EDBF;
 }
-
 .headingPri-direction{
     color: $base_color_grey;
 }

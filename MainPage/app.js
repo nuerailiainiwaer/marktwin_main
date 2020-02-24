@@ -188,7 +188,7 @@ function firstbtnlev1() {
   for (i = 0; i < x.length; i++) {
     x[i].classList.remove("addno");
     // x[i].style.WebkitAnimation ="20s anwar infinite";
-    x[i].style.width = "40%";
+    x[i].style.width = "33.333%";
   }
 
   document.getElementById("slidescontain").style.width = "300%";
@@ -226,7 +226,7 @@ function firstbtnlev2() {
   for (i = 0; i < x.length; i++) {
     x[i].classList.remove("addno");
     // x[i].style.WebkitAnimation ="20s anwar infinite";
-    x[i].style.width = "40%";
+    x[i].style.width = "33.333%";
   }
   document.getElementById("slidescontain").style.width = "300%";
 }
@@ -262,7 +262,7 @@ function firstbtnlev4() {
   var x = document.getElementsByClassName("slide");
   for (i = 0; i < x.length; i++) {
     x[i].classList.remove("addno");
-    x[i].style.width = "40%";
+    x[i].style.width = "33.333%";
   }
   document.getElementById("slidescontain").style.width = "300%";
 }

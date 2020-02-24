@@ -12,42 +12,28 @@ $bp-360: 22.5; // 411px
 $bp-320: 20em; // 411px
 
 html{
-    width: auto!important; overflow-x: hidden!important
+    overflow-x: hidden!important;
 }
 
 .slide1{
     clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
-    ;
     margin-top: -5.5rem;
     padding: 4rem 0rem 5rem 0rem;
     background-color:  #151c3b;
-    
-    
 }
-
 .overall{
     overflow: hidden;
     width: 100vw;
-        height: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
     @media only screen and (max-width: $bp-smallest) {
         height: 80vh;
     }
-    // @media only screen and (max-width: 63em) {
-    //     height: 85vh;
-    // }
-    // @media only screen and (max-width: 48em) {
-    //     height: 52vh;
-    // }
-    // @media only screen and (max-width: 45em) {
-    //     height: 85vh;
-    // }
-    display: flex;
-    flex-direction: column;
 }
 .slide__main__title{
     width: 100vw;
     background-color: $base_color_black;
-
 }
 h2, p{
     text-align: center;
@@ -57,32 +43,16 @@ p{
     margin-bottom: 1rem;
 }
 .slidershow{
-
     background-color: $base_color_black;
-    @media only screen and (max-width: $bp-smallest) {
-        flex: 0 0 100%;
-        
-    }
-    // @media only screen and (max-width: 26em) {
-    //     flex: 0 0 72%;
-    // }
-    // @media only screen and (max-width: 24.0em) {
-    //     flex: 0 0 76%;
-    // }
-    // @media only screen and (max-width: 23em) {
-    //     flex: 0 0 79%;
-    // }
-    // @media only screen and (max-width: 21em) {
-    // flex: 0 0 76%;
-    // }
     width: 100vw;
     height: 600px;
     overflow: hidden;
     position: relative;
     background-color: #f1f2f5 !important;
-    
+    @media only screen and (max-width: $bp-smallest) {
+        flex: 0 0 100%;
+    }
 }
-
 .navigation1{
     width: 100%;
     display: flex;
@@ -94,7 +64,6 @@ p{
     }
 }
 .bar{
-    
     background-color: white;
     border-radius: 25px;
     padding:.1rem .5rem .1rem .5rem;
@@ -129,9 +98,6 @@ p{
     }
 }
 .slides{
-
-  
-    
     width: 300%;
     display: flex;
     position: relative;
@@ -162,13 +128,11 @@ p{
         background-color: #f1f2f5 !important;
         display: none;
         bottom: .5rem;
-        // border-bottom:  3px solid black;
         margin-bottom: .5rem;
         &--contain{
             border: 1px solid black;
             border-radius: 25px; 
             height: 3rem;
-           
         }
         @media only screen and (max-width: $bp-smallest) {
             display: block;
@@ -182,8 +146,6 @@ p{
         }
     }
 }
-
-
 .slide{
     padding: 0;
     background-color: #f1f2f5 !important;
@@ -198,7 +160,6 @@ p{
     align-items: center;
     background-color: white;
     height: 500px;
-
     @media only screen and (max-width: $bp-smallest) {
         width: 100%;
         overflow: hidden;
@@ -208,10 +169,6 @@ p{
         flex-wrap: wrap;
         justify-content: center;
         align-content: flex-start;
-    }
-    // animation: 20s anwar infinite;
-    @media only screen and (max-width: $bp-smallest) {
-        // animation: none !important;
     }
     &__dash{
         font-size: 1rem;
@@ -238,7 +195,6 @@ p{
             background-color: white;
             height: 80%;
             width: 4rem;
-            // background-color: black;
             box-sizing: content-box;
             border-radius: 50%;
             flex: 0 0 25%;
@@ -325,41 +281,12 @@ p{
         }
     }
 }
-@keyframes anwar{
-    0%{
-        left: 0;
-    }
-    10%{
-        left: -20%;
-    }
-    20%{
-        left: -40%;
-    }
-    30%{
-        left: -60%;
-    }
-    40%{
-        left: -80%;
-    }
-    50%{
-        left: -60%;
-    }
-    60%{
-        left: -40%;
-    }
-    70%{
-        left: -20%;
-    }
-}
-
-
 .addflex{
     display: flex;
 }
 .addno{
     display: none;
 }
-
 @keyframes appear{
     0%   {opacity: 0;}
     
@@ -367,12 +294,10 @@ p{
     
     100% {opacity: 1;}
 }
-
 .red{
     background-color:$base_color_yellow;
     @media only screen and (max-width: $bp-smallest) {
         background-color:black;
-        
     }
     border-radius: 25px;
 }
@@ -394,18 +319,7 @@ p{
     50%   {left: -200%;}
     100%   {left: -200%;}
 }
-@keyframes f4{
-    0%   {left: -200%;}
-    50%   {left: -300%;}
-    100%   {left: -300%;}
-}
-@keyframes f5{
 
-    0%   {left: -300%;}
-    50%   {left: -400%;}
-    100%   {left: -400%;}
-
-}
 
 
 
