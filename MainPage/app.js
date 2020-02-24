@@ -209,8 +209,7 @@ function firstbtn1() {
 
   x[0].classList.add("addno");
   x[2].classList.add("addno");
-  // x[3].classList.add("addno");
-  // x[4].classList.add("addno");
+  
 
   document.getElementById("slidescontain").style.width = "100%";
   x[1].style.WebkitAnimation = "none";
@@ -246,8 +245,7 @@ function firstbtn2() {
 
   x[0].classList.add("addno");
   x[1].classList.add("addno");
-  // x[3].classList.add("addno");
-  // x[4].classList.add("addno");
+
 
   document.getElementById("slidescontain").style.width = "100%";
   x[2].style.WebkitAnimation = "none";
@@ -514,14 +512,7 @@ function showDivs1(n) {
   } else {
     dots2.style.WebkitAnimation = "f3 4s";
   }
-
-  // }else if(y==4){
-  //   dots2.style.WebkitAnimation ="f4 4s";
-
-  // }else{
-  //   dots2.style.WebkitAnimation ="f5 4s";
-
-  // }
+  
 }
 
 // pan studentfeedback
