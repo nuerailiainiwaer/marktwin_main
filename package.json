@@ -1,22 +1,21 @@
 {
-  "name": "mark2win_newwebsite",
+  "name": "marktwin_main",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "mark": "node-sass sass/main.scss mainpage/style.css -w"
+    "test": "node-sass sass/main.scss MainPage/style.css -w"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/panshangzhu/mark2win_newwebsite.git"
+    "url": "git+https://github.com/nuerailiainiwaer/marktwin_main.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/panshangzhu/mark2win_newwebsite/issues"
+    "url": "https://github.com/nuerailiainiwaer/marktwin_main/issues"
   },
-  "homepage": "https://github.com/panshangzhu/mark2win_newwebsite#readme",
-  "devDependencies": {},
+  "homepage": "https://github.com/nuerailiainiwaer/marktwin_main#readme",
   "dependencies": {
     "node-sass": "^4.13.1"
   }

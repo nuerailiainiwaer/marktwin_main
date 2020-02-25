@@ -219,13 +219,13 @@
 }
 
 .card {
-  border-radius: 15px;
-  height: 25rem;
   -webkit-box-flex: 25%;
       -ms-flex: 25% 0 0px;
           flex: 25% 0 0;
   margin: 0 3rem 3rem 3rem;
   position: relative;
+  border-radius: 15px;
+  height: 25rem;
 }
 
 @media only screen and (max-width: 50em) {
@@ -2708,4 +2708,4 @@ p {
   background-color: #f1f3fe;
   border: 1px solid #ffc740;
 }
-/*# sourceMappingURL=main.css.map */
+# sourceMappingURL=main.css.map
