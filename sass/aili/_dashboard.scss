@@ -1,0 +1,216 @@
+.logopart{
+    flex: 40% 0 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5rem 2rem 0 0;
+<<<<<<< HEAD:sass/abstract/_dashboard.scss
+    &--box {
+<<<<<<< HEAD:sass/abstract/_dashboard.scss
+=======
+    margin: 5rem 0rem 0 0;
+    &--box{
+>>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb:sass/abstract/_dashboard.scss
+=======
+    &--box{
+>>>>>>> parent of 2e273f9... final change:sass/aili/_dashboard.scss
+=======
+>>>>>>> parent of 503f770... final:sass/aili/_dashboard.scss
+        height: 26rem;
+        width: 23rem;
+        border-radius: 0px 50px 0px 0px; 
+        opacity: .5;
+        @media only screen and (max-width: 31.25em) {
+           height: 23rem;
+            margin-left: 1rem;
+            width: 20rem;
+            font-size: .9rem;
+        } 
+        &--h1{
+           margin-left: 2rem;
+           color: black;
+           padding-top: 2rem;
+           font-weight: bold;
+            @media only screen and (max-width: 31.25em) {
+                margin-left: 1rem;
+            }
+        }
+        &--h2{
+            margin-left: 2rem;
+            margin-right: 2rem;
+            color: black;
+            padding-top: 1rem;
+            font-weight: bold;
+            @media only screen and (max-width: 31.25em) {
+                margin-left: 1rem;
+                margin-right: 1rem;
+            } 
+        }
+        &--h3{
+            margin-left: 2rem;
+            margin-right: 2rem;
+            color:black;
+            padding-top: 1rem;
+            font-weight: bold;
+            @media only screen and (max-width: 31.25em) {
+                margin-left: 1rem;
+            } 
+        }
+<<<<<<< HEAD:sass/abstract/_dashboard.scss
+<<<<<<< HEAD:sass/abstract/_dashboard.scss
+<<<<<<< HEAD:sass/aili/_dashboard.scss
+        &--button {
+=======
+        &--button{
+            border-radius: 25px;
+>>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb:sass/abstract/_dashboard.scss
+=======
+        &--button{
+>>>>>>> parent of 2e273f9... final change:sass/aili/_dashboard.scss
+=======
+        &--button {
+>>>>>>> parent of 503f770... final:sass/aili/_dashboard.scss
+            margin-left: 2rem;
+            margin-top: 2rem;
+            background-color: #ffc73f;
+            border: 1px solid white;
+            color: black;
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            outline: none;
+            font-size: 16px;
+            transition: ease-in-out all 0.55s;
+            cursor: pointer;
+            @media only screen and (max-width: 31.25em) {
+                margin-left: 1rem;
+                margin-left: 1rem;
+                padding: 15px 20px;
+                font-size: 20px;
+            }
+            &:hover{
+                background-color: #151c3b;
+                color:white;
+                border: 1px solid blue;
+            }
+    }
+}
+}
+
+
+.dashboard{
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    padding: 2rem 3rem 5rem 3rem;
+
+    overflow: hidden;
+   
+    height: 500px;
+    width: auto;
+    background-color:#f1f3fe;
+    &__container{
+        width: 100%;
+        display: flex;
+
+    }
+    &__text{
+        flex: 50% 0 0;
+    }
+    &__logo{
+        flex: 50% 0 0;
+        @media only screen and (max-width: 31.25em) {
+           display: none;
+        }
+        &-img{
+            width: auto;
+            height: 22rem;
+            margin: 3rem 2rem 0 0;
+        }
+    }
+<<<<<<< HEAD:sass/abstract/_dashboard.scss
+<<<<<<< HEAD:sass/abstract/_dashboard.scss
+<<<<<<< HEAD:sass/aili/_dashboard.scss
+}
+=======
+}
+
+.logopart{
+    flex: 40% 0 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5rem 2rem 0 0;
+    &--box{
+       height: 26rem;
+       width: 23rem;
+       border-radius: 0px 50px 0px 0px; 
+       opacity: .5;
+       @media only screen and (max-width: 31.25em) {
+           height: 23rem;
+            margin-left: 1rem;
+            width: 20rem;
+            font-size: .9rem;
+        } 
+        &--h1{
+           margin-left: 2rem;
+           color: black;
+           padding-top: 2rem;
+           font-weight: bold;
+           @media only screen and (max-width: 31.25em) {
+            margin-left: 1rem;
+        }
+    }
+    &--h2{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        color: black;
+        padding-top: 1rem;
+        font-weight: bold;
+        @media only screen and (max-width: 31.25em) {
+            margin-left: 1rem;
+            margin-right: 1rem;
+        } 
+    }
+    &--h3{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        color:black;
+        padding-top: 1rem;
+        font-weight: bold;
+        @media only screen and (max-width: 31.25em) {
+            margin-left: 1rem;
+        } 
+    }
+    &--button{
+        margin-left: 2rem;
+        margin-top: 2rem;
+        background-color: blue;
+        border: 1px solid white;
+        color: #eef279;
+        padding: 15px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        outline: none;
+        font-size: 16px;
+        transition: ease-in-out all 0.55s;
+        cursor: pointer;
+        @media only screen and (max-width: 31.25em) {
+            margin-left: 1rem;
+            margin-left: 1rem;
+            padding: 15px 20px;
+            font-size: 20px;
+        }
+        &:hover{
+            background-color: #cdf7f7;
+            color: blue;
+            border: 1px solid blue
+        }
+    }
+}
+}
+>>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb:sass/abstract/_dashboard.scss
+=======
+}
+>>>>>>> parent of 2e273f9... final change:sass/aili/_dashboard.scss
+=======
+}
+>>>>>>> parent of 503f770... final:sass/aili/_dashboard.scss

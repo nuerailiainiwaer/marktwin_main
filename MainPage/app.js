@@ -87,86 +87,49 @@
 
 // Ali javascript here
 
-// var mama = document.getElementById("apam1");
-// var meimei = document.getElementById("baobao1");
+var mama = document.getElementById("apam1");
+var meimei = document.getElementById("baobao1");
 
-// mama.addEventListener("click", displayDate);
+mama.addEventListener("click", displayDate);
 
-<<<<<<< HEAD
 function displayDate() {
   meimei.classList.toggle("final");
 }
-=======
-// function displayDate() {
-//   meimei.classList.toggle("final");
-// }
->>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb
 
-// mama.addEventListener("mouseleave", myScript2);
+mama.addEventListener("mouseleave", myScript2);
 
-<<<<<<< HEAD
 function myScript2() {
   meimei.classList.remove("final");
 }
-=======
-// function myScript2() {
-//   meimei.classList.remove("final");
-// }
->>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb
 
-// var mama1 = document.getElementById("apam2");
-// var meimei1 = document.getElementById("baobao2");
+var mama1 = document.getElementById("apam2");
+var meimei1 = document.getElementById("baobao2");
 
-// mama1.addEventListener("click", displayDate1);
+mama1.addEventListener("click", displayDate1);
 
-<<<<<<< HEAD
 function displayDate1() {
   meimei1.classList.add("final");
 }
-=======
-// function displayDate1() {
-//   meimei1.classList.add("final");
-// }
->>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb
 
-// mama1.addEventListener("mouseleave", myScript);
+mama1.addEventListener("mouseleave", myScript);
 
-<<<<<<< HEAD
 function myScript() {
   meimei1.classList.remove("final");
 }
-=======
-// function myScript() {
-//   meimei1.classList.remove("final");
-// }
->>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb
 
-// var mama2 = document.getElementById("apam3");
-// var meimei2 = document.getElementById("baobao3");
+var mama2 = document.getElementById("apam3");
+var meimei2 = document.getElementById("baobao3");
 
-<<<<<<< HEAD
 mama2.addEventListener("click", displayDate2);
 function displayDate2() {
   meimei2.classList.add("final");
 }
-=======
-// mama2.addEventListener("click", displayDate2);
-// function displayDate2() {
-//   meimei2.classList.add("final");
-// }
->>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb
 
-// mama2.addEventListener("mouseleave", myScript1);
+mama2.addEventListener("mouseleave", myScript1);
 
-<<<<<<< HEAD
 function myScript1() {
   meimei2.classList.remove("final");
 }
-=======
-// function myScript1() {
-//   meimei2.classList.remove("final");
-// }
->>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb
 
 // const zhumu = document.getElementById("zhu1");
 // zhumu.addEventListener("click", change);
@@ -189,7 +152,8 @@ var myVar1;
 var btn1 = document.getElementById("r1");
 var btn2 = document.getElementById("r2");
 var btn3 = document.getElementById("r3");
-
+// var btn4 = document.getElementById("r4");
+// var btn5 = document.getElementById("r5");
 
 btn1.addEventListener("mouseenter", firstbtn);
 function firstbtn() {
@@ -218,6 +182,9 @@ btn1.addEventListener("mouseleave", firstbtnlev1);
 function firstbtnlev1() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 503f770... final
     console.log("anwar");
     y = 1;
 
@@ -229,6 +196,7 @@ function firstbtnlev1() {
     }
 
     document.getElementById("slidescontain").style.width = "300%";
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 2e273f9... final change
@@ -252,12 +220,17 @@ function firstbtnlev1() {
 
   document.getElementById("slidescontain").style.width = "300%";
 >>>>>>> parent of 2e273f9... final change
+=======
+>>>>>>> parent of 503f770... final
 }
 
 btn2.addEventListener("mouseenter", firstbtn1);
 function firstbtn1() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 503f770... final
     dots2.style.WebkitAnimation = "none";
     for (var i = 0; i < bar1.length; i++) {
         bar1[i].className = bar1[i].className.replace(" red", "");
@@ -278,6 +251,7 @@ function firstbtn1() {
     x[1].style.WebkitAnimation = "none";
     x[1].style.WebkitAnimation = "appear .6s";
     x[1].style.width = "100%";
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 2e273f9... final change
@@ -309,11 +283,16 @@ function firstbtn1() {
 >>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb
 =======
 >>>>>>> parent of 2e273f9... final change
+=======
+>>>>>>> parent of 503f770... final
 }
 btn2.addEventListener("mouseleave", firstbtnlev2);
 function firstbtnlev2() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 503f770... final
     intervalManager(true);
     y = 1;
 
@@ -324,6 +303,7 @@ function firstbtnlev2() {
         x[i].style.width = "33.333333%";
     }
     document.getElementById("slidescontain").style.width = "300%";
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 2e273f9... final change
@@ -344,11 +324,16 @@ function firstbtnlev2() {
   }
   document.getElementById("slidescontain").style.width = "300%";
 >>>>>>> parent of 2e273f9... final change
+=======
+>>>>>>> parent of 503f770... final
 }
 btn3.addEventListener("mouseenter", firstbtn2);
 function firstbtn2() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 503f770... final
     dots2.style.WebkitAnimation = "none";
 
     for (var i = 0; i < bar1.length; i++) {
@@ -370,6 +355,7 @@ function firstbtn2() {
     x[2].style.WebkitAnimation = "none";
     x[2].style.WebkitAnimation = "appear .6s";
     x[2].style.width = "100%";
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 2e273f9... final change
@@ -402,11 +388,16 @@ function firstbtn2() {
 >>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb
 =======
 >>>>>>> parent of 2e273f9... final change
+=======
+>>>>>>> parent of 503f770... final
 }
 btn3.addEventListener("mouseleave", firstbtnlev4);
 function firstbtnlev4() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 503f770... final
     intervalManager(true);
     y = 1;
 
@@ -416,6 +407,7 @@ function firstbtnlev4() {
         x[i].style.width = "33.3333%";
     }
     document.getElementById("slidescontain").style.width = "300%";
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 2e273f9... final change
@@ -435,7 +427,84 @@ function firstbtnlev4() {
   }
   document.getElementById("slidescontain").style.width = "300%";
 >>>>>>> parent of 2e273f9... final change
+=======
+>>>>>>> parent of 503f770... final
 }
+// btn4.addEventListener("mouseenter",firstbtn3);
+// function firstbtn3(){
+
+//   dots2.style.WebkitAnimation = "none";
+
+//     for (var i = 0; i < bar1.length; i++) {
+//       bar1[i].className = bar1[i].className.replace(" red", "");
+//     }
+//     intervalManager(false);
+
+//     var x = document.getElementsByClassName("slide");
+//     for (i = 0; i < x.length; i++) {
+//         x[i].classList.remove("addno");
+//       }
+
+//     x[0].classList.add("addno");
+//     x[1].classList.add("addno");
+//     x[2].classList.add("addno");
+//     x[4].classList.add("addno");
+
+//     document.getElementById("slidescontain").style.width="100%";
+//     x[3].style.WebkitAnimation = "none";
+//     x[3].style.WebkitAnimation ="appear .6s";
+//     x[3].style.width="100%";
+// }
+// btn4.addEventListener("mouseleave",firstbtnlev5);
+// function firstbtnlev5(){
+//   intervalManager(true);
+//   y=1;
+//   var x = document.getElementsByClassName("slide");
+//   for (i = 0; i < x.length; i++) {
+//       x[i].classList.remove("addno");
+//       x[i].style.width="20%";
+//   }
+//   document.getElementById("slidescontain").style.width="500%";
+// }
+
+// btn5.addEventListener("mouseenter",firstbtn4);
+// function firstbtn4(){
+//   dots2.style.WebkitAnimation = "none";
+
+//   for (var i = 0; i < bar1.length; i++) {
+//     bar1[i].className = bar1[i].className.replace(" red", "");
+//   }
+//   intervalManager(false);
+
+//     var x = document.getElementsByClassName("slide");
+//     for (i = 0; i < x.length; i++) {
+//         x[i].classList.remove("addno");
+//       }
+
+//     x[0].classList.add("addno");
+//     x[1].classList.add("addno");
+//     x[2].classList.add("addno");
+//     x[3].classList.add("addno");
+
+//     document.getElementById("slidescontain").style.width="100%";
+//     x[4].style.WebkitAnimation = "none";
+//     x[4].style.WebkitAnimation ="appear .6s";
+//     x[4].style.width="100%";
+// }
+// btn5.addEventListener("mouseleave",firstbtnlev);
+// function firstbtnlev(){
+//   intervalManager(true);
+//   y=1;
+//   var x = document.getElementsByClassName("slide");
+//   for (i = 0; i < x.length; i++) {
+//       x[i].classList.remove("addno");
+//       // x[i].style.WebkitAnimation ="20s anwar infinite";
+//       x[i].style.width="20%";
+//   }
+//   document.getElementById("slidescontain").style.width="500%";
+
+// }
+/////under 500px
 var slideIndex = 1;
 
 if (window.matchMedia("(max-width: 500px)").matches) {
@@ -462,6 +531,8 @@ function myStopFunction() {
   clearInterval(myVar);
 }
 
+//dom manipulations
+
 document.getElementById("btn-1").addEventListener("click", function() {
   console.log("me");
   myStopFunction();
@@ -477,7 +548,16 @@ document.getElementById("btn-3").addEventListener("click", function() {
   myStopFunction();
   currentDiv(3);
 });
-
+// document.getElementById("btn-4").addEventListener("click", function(){
+//   console.log('me');
+//   myStopFunction();
+//   currentDiv(4);
+// });
+// document.getElementById("btn-5").addEventListener("click", function(){
+//   console.log('me');
+//   myStopFunction();
+//   currentDiv(5);
+// });
 
 document.getElementById("btnleft").addEventListener("click", function() {
   myStopFunction();
@@ -503,6 +583,9 @@ function currentDiv(n) {
 function showDivs(n) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 503f770... final
     var i;
 
     var x = document.getElementsByClassName("slide");
@@ -539,6 +622,7 @@ function showDivs(n) {
         text = "第三期毕业生";
     }
     document.getElementById("dashtext").innerHTML = text;
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 2e273f9... final change
@@ -583,7 +667,22 @@ function showDivs(n) {
 =======
   document.getElementById("dashtext").innerHTML = text;
 >>>>>>> parent of 2e273f9... final change
+=======
+>>>>>>> parent of 503f770... final
 }
+
+//  if(slideIndex-1==0){
+//   text="第一期毕业生"
+// }else if(slideIndex-1==1){
+//   text="第二期毕业生"
+// }else if(slideIndex-1==2){
+
+//   text="第三期毕业生"
+// }else if(slideIndex-1==3){
+//   text="第四期毕业生"
+// }else{
+//   text="第五期毕业生"
+// }
 
 var slideIndex1 = 1;
 var intervalID = null;
@@ -622,6 +721,9 @@ function currentDiv1(n) {
 function showDivs1(n) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 503f770... final
     for (var i = 0; i < bar1.length; i++) {
         bar1[i].className = bar1[i].className.replace(" red", "");
     }
@@ -641,6 +743,7 @@ function showDivs1(n) {
     //   dots2.style.WebkitAnimation ="f5 4s";
 
     // }
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 2e273f9... final change
@@ -668,6 +771,8 @@ function showDivs1(n) {
 
   // }
 >>>>>>> parent of 2e273f9... final change
+=======
+>>>>>>> parent of 503f770... final
 }
 
 // pan studentfeedback
