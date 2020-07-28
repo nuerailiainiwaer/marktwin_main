@@ -2,51 +2,62 @@
 $screenbelow-1100: 75em;
 $screenbelow-415: 26.5em;
 $screenbelow-500: 31.25em;
+
+
+
 *,
 *::before,
 *::after {
     margin: 0;
     padding: 0;
+    
     box-sizing: inherit;
-}
 
-html {
+}
+html{
     font-size: 1em;
+   
 }
 
+<<<<<<< HEAD:sass/component/_navigationbar.scss
 .toppic {
 =======
 .toppic{
     
 >>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb:sass/component/_navigationbar.scss
+=======
+.toppic{
+>>>>>>> parent of 2e273f9... final change:sass/aili/_topic.scss
     width: 100vw;
+   
     box-shadow: 0px 1px 2px 0px rgba(38, 46, 56, 0.1);
     position: fixed;
     top: 0;
     left: 0;
     @media only screen and (max-width: 31.25em) {
         height: 55px;
-    }
+    } 
     height: 44px;
     background-color: $base_color_grey;
-    opacity: 0.9;
+    opacity: .9;
     display: flex;
     transition: all 350ms ease-out;
     z-index: 2000;
-    &__logo {
+    &__logo{
         align-self: center;
+
         flex: 25% 0 0;
         @media only screen and (max-width: 31.25em) {
             flex: 70% 0 0;
-        }
+        } 
         display: flex;
         justify-content: center;
-        &--img {
+        &--img{
             height: 100%;
             width: 8rem;
         }
     }
-    &__container {
+    &__container{
         display: flex;
         justify-content: center;
         color: white;
@@ -55,47 +66,74 @@ html {
         align-items: center;
         @media only screen and (max-width: 31.25em) {
             display: none;
-        }
+        } 
     }
-    &__button {
+    &__button{
         flex: 25% 0 0;
         display: flex;
+<<<<<<< HEAD:sass/component/_navigationbar.scss
         @media only screen and (max-width: 31.25em) {
             display: none;
 <<<<<<< HEAD:sass/aili/_topic.scss
         }
+=======
+>>>>>>> parent of 2e273f9... final change:sass/aili/_topic.scss
         // display: flex;
         // justify-content: space-evenly;
+        
     }
+<<<<<<< HEAD:sass/component/_navigationbar.scss
     &__bcontainer {
 =======
         } 
     }
     &__bcontainer{
 >>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb:sass/component/_navigationbar.scss
+=======
+    &__bcontainer{
+
+>>>>>>> parent of 2e273f9... final change:sass/aili/_topic.scss
         width: 100%;
         margin: auto 0 auto 0;
+        
         display: flex;
         justify-content: space-evenly;
     }
+<<<<<<< HEAD:sass/component/_navigationbar.scss
 <<<<<<< HEAD:sass/aili/_topic.scss
     &__btn1 {
 =======
     &__btn1{
 >>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb:sass/component/_navigationbar.scss
+=======
+
+    
+    &__btn1{
+>>>>>>> parent of 2e273f9... final change:sass/aili/_topic.scss
         display: inline-block;
+        
         color: black;
         font-size: 16px;
         padding: 6px 14px;
+        
         cursor: pointer;
         text-align: center;
         outline: none;
+<<<<<<< HEAD:sass/component/_navigationbar.scss
 <<<<<<< HEAD:sass/aili/_topic.scss
         &--zhu {
+=======
+       
+
+        &--zhu{
+>>>>>>> parent of 2e273f9... final change:sass/aili/_topic.scss
             background-color: #3b3b3b;
             color: white;
-            border: 3px solid #3b3b3b;
+            border: 3px solid #3b3b3b ;
+            
+            
         }
+<<<<<<< HEAD:sass/component/_navigationbar.scss
         &--denglu {
 =======
         &--zhu{
@@ -105,38 +143,74 @@ html {
         }
         &--denglu{
 >>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb:sass/component/_navigationbar.scss
+=======
+       
+        
+
+        &--denglu{
+>>>>>>> parent of 2e273f9... final change:sass/aili/_topic.scss
             border-radius: 30px;
             background-color: #ffc73f;
             color: black;
             transition: ease-in-out all 0.55s;
+<<<<<<< HEAD:sass/component/_navigationbar.scss
 <<<<<<< HEAD:sass/aili/_topic.scss
             &:hover {
+=======
+
+            &:hover{
+>>>>>>> parent of 2e273f9... final change:sass/aili/_topic.scss
                 // background-color: #3b3b3b;
+                
                 // border: 3px solid blue ;
+               
+
+
             }
         }
+
     }
-    &__zhu1 {
-        transition: ease-in-out all 0.3s;
+   
+
+    &__zhu1{
+        
+        transition: ease-in-out all .3s;
         border: 2px solid transparent;
-        // outline-color: grey;
-        // outline-style: auto;
-        // outline-width: 5px;
+      
+            // outline-color: grey;
+            // outline-style: auto;
+            // outline-width: 5px;
+
+       
     }
+
+
     // &__denglu1{
     //     display: flex;
     //    align-items: center;
     //    transition: ease-in-out all .3s;
     //     border: 2px solid transparent;
+
     //     &:focus{
     //         outline-color: grey;
     //         outline-style: auto;
     //         outline-width: 5px;
     //         outline-offset: -5px;
+
     //     }
     // }
+
+   
+
+   
+   
+    
+
+
+
 }
 
+<<<<<<< HEAD:sass/component/_navigationbar.scss
 .liwrap {
 =======
         }
@@ -148,6 +222,9 @@ html {
 }
 .liwrap{
 >>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb:sass/component/_navigationbar.scss
+=======
+.liwrap{
+>>>>>>> parent of 2e273f9... final change:sass/aili/_topic.scss
     display: flex;
     width: 120px;
     text-align: center;
@@ -155,28 +232,34 @@ html {
     color: black;
     align-self: stretch;
     justify-content: center;
-    &:hover {
+    &:hover{
         background-color: #151c3b;
         color: white;
-        .liwrap__up {
+        .liwrap__up{
             opacity: 1;
-            transform: scaleY(1) !important;
+            transform: scaleY(1)!important;
             top: 44px;
         }
     }
+<<<<<<< HEAD:sass/component/_navigationbar.scss
 <<<<<<< HEAD:sass/aili/_topic.scss
     &__up {
 =======
     &__up{
 >>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb:sass/component/_navigationbar.scss
+=======
+    
+    &__up{
+>>>>>>> parent of 2e273f9... final change:sass/aili/_topic.scss
         position: absolute;
         opacity: 0;
         top: 0;
         width: 120px;
         background-color: white;
-        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 6px 0 rgba(0,0,0,.2);
         transition-property: all;
         transform-origin: top;
+<<<<<<< HEAD:sass/component/_navigationbar.scss
 <<<<<<< HEAD:sass/aili/_topic.scss
         transform: scaleY(0.16666666666);
         transition-duration: 0.5s;
@@ -186,16 +269,31 @@ html {
         transition-duration:.5s;
         &--item{
 >>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb:sass/component/_navigationbar.scss
+=======
+        transform: scaleY(0.16666666666); 
+        transition-duration:.5s;
+        
+        &--item{
+>>>>>>> parent of 2e273f9... final change:sass/aili/_topic.scss
             height: 38px;
             line-height: 38px;
             border-top: 1px solid #f2f2f2;
             position: relative;
+<<<<<<< HEAD:sass/component/_navigationbar.scss
 <<<<<<< HEAD:sass/aili/_topic.scss
             &:hover {
                 .liwrap__up--content {
+=======
+
+            &:hover{
+                .liwrap__up--content{
+>>>>>>> parent of 2e273f9... final change:sass/aili/_topic.scss
                     color: blue;
                 }
+               
+
             }
+<<<<<<< HEAD:sass/component/_navigationbar.scss
             &::before {
 =======
             &:hover{
@@ -205,6 +303,10 @@ html {
             }
             &::before{
 >>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb:sass/component/_navigationbar.scss
+=======
+
+            &::before{
+>>>>>>> parent of 2e273f9... final change:sass/aili/_topic.scss
                 content: "";
                 position: absolute;
                 color: black;
@@ -214,6 +316,7 @@ html {
                 width: 3%;
                 background-color: red;
                 transform: scaleY(0);
+<<<<<<< HEAD:sass/component/_navigationbar.scss
 <<<<<<< HEAD:sass/aili/_topic.scss
                 transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s, background-color 0.1s;
             }
@@ -225,29 +328,44 @@ html {
             }
             &:hover::before{
 >>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb:sass/component/_navigationbar.scss
+=======
+                transition: transform .2s,
+                            width .4s cubic-bezier(1,0,0,1) .2s,
+                            background-color .1s;
+                
+            }
+           
+            &:hover::before{
+>>>>>>> parent of 2e273f9... final change:sass/aili/_topic.scss
                 transform: scaleY(1);
                 width: 100%;
+
             }
+            
+
+            
+
         }
-        &--content {
+        &--content{
             position: relative;
             cursor: pointer;
             display: inline-block;
             color: black;
             font-size: 12px;
+           
         }
     }
-    &__down {
+    &__down{
         display: flex;
         align-items: center;
     }
-}
 
-.btn_language button {
-    outline: none;
-    width: 3rem;
-    height: 1.5rem;
-    margin-top: 0.3rem;
+}
+.btn_language button{
+    outline:none;
+    width:3rem;
+    height:1.5rem;
+    margin-top:0.3rem;
 }
 
 @keyframes moveInLeft {
@@ -255,9 +373,11 @@ html {
         opacity: 0;
         transform: translateX(-10rem);
     }
+
     80% {
         transform: translateX(1rem);
     }
+
     100% {
         opacity: 1;
         transform: translate(0);
@@ -268,6 +388,7 @@ html {
         opacity: 0;
         transform: translateY(3rem);
     }
+
     100% {
         opacity: 1;
         transform: translate(0);
@@ -275,10 +396,12 @@ html {
 }
 <<<<<<< HEAD:sass/aili/_topic.scss
 
-@keyframes box {
+@keyframes box{
     0% {
         border: 1px black solid;
+        
     }
+<<<<<<< HEAD:sass/component/_navigationbar.scss
 }
 =======
 @keyframes box{
@@ -287,3 +410,7 @@ html {
     }
 }
 >>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb:sass/component/_navigationbar.scss
+=======
+
+}
+>>>>>>> parent of 2e273f9... final change:sass/aili/_topic.scss

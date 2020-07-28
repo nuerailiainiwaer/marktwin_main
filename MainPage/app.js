@@ -94,7 +94,7 @@
 
 <<<<<<< HEAD
 function displayDate() {
-    meimei.classList.toggle("final");
+  meimei.classList.toggle("final");
 }
 =======
 // function displayDate() {
@@ -106,7 +106,7 @@ function displayDate() {
 
 <<<<<<< HEAD
 function myScript2() {
-    meimei.classList.remove("final");
+  meimei.classList.remove("final");
 }
 =======
 // function myScript2() {
@@ -121,7 +121,7 @@ function myScript2() {
 
 <<<<<<< HEAD
 function displayDate1() {
-    meimei1.classList.add("final");
+  meimei1.classList.add("final");
 }
 =======
 // function displayDate1() {
@@ -133,7 +133,7 @@ function displayDate1() {
 
 <<<<<<< HEAD
 function myScript() {
-    meimei1.classList.remove("final");
+  meimei1.classList.remove("final");
 }
 =======
 // function myScript() {
@@ -146,9 +146,8 @@ function myScript() {
 
 <<<<<<< HEAD
 mama2.addEventListener("click", displayDate2);
-
 function displayDate2() {
-    meimei2.classList.add("final");
+  meimei2.classList.add("final");
 }
 =======
 // mama2.addEventListener("click", displayDate2);
@@ -161,7 +160,7 @@ function displayDate2() {
 
 <<<<<<< HEAD
 function myScript1() {
-    meimei2.classList.remove("final");
+  meimei2.classList.remove("final");
 }
 =======
 // function myScript1() {
@@ -193,32 +192,31 @@ var btn3 = document.getElementById("r3");
 
 
 btn1.addEventListener("mouseenter", firstbtn);
-
 function firstbtn() {
-    dots2.style.WebkitAnimation = "none";
-    for (var i = 0; i < bar1.length; i++) {
-        bar1[i].className = bar1[i].className.replace(" red", "");
-    }
-    intervalManager(false);
+  dots2.style.WebkitAnimation = "none";
+  for (var i = 0; i < bar1.length; i++) {
+    bar1[i].className = bar1[i].className.replace(" red", "");
+  }
+  intervalManager(false);
 
-    var x = document.getElementsByClassName("slide");
-    for (i = 0; i < x.length; i++) {
-        x[i].classList.remove("addno");
-    }
+  var x = document.getElementsByClassName("slide");
+  for (i = 0; i < x.length; i++) {
+    x[i].classList.remove("addno");
+  }
 
-    x[1].classList.add("addno");
-    x[2].classList.add("addno");
-    // x[3].classList.add("addno");
-    // x[4].classList.add("addno");
+  x[1].classList.add("addno");
+  x[2].classList.add("addno");
+  // x[3].classList.add("addno");
+  // x[4].classList.add("addno");
 
-    document.getElementById("slidescontain").style.width = "100%";
-    x[0].style.WebkitAnimation = "none";
-    x[0].style.WebkitAnimation = "appear .6s";
-    x[0].style.width = "100%";
+  document.getElementById("slidescontain").style.width = "100%";
+  x[0].style.WebkitAnimation = "none";
+  x[0].style.WebkitAnimation = "appear .6s";
+  x[0].style.width = "100%";
 }
 btn1.addEventListener("mouseleave", firstbtnlev1);
-
 function firstbtnlev1() {
+<<<<<<< HEAD
 <<<<<<< HEAD
     console.log("anwar");
     y = 1;
@@ -232,6 +230,8 @@ function firstbtnlev1() {
 
     document.getElementById("slidescontain").style.width = "300%";
 =======
+=======
+>>>>>>> parent of 2e273f9... final change
   console.log("anwar");
   y = 1;
 
@@ -240,16 +240,23 @@ function firstbtnlev1() {
   for (i = 0; i < x.length; i++) {
     x[i].classList.remove("addno");
     // x[i].style.WebkitAnimation ="20s anwar infinite";
+<<<<<<< HEAD
     x[i].style.width = "33.333%";
   }
 
   document.getElementById("slidescontain").style.width = "300%";
 >>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb
+=======
+    x[i].style.width = "40%";
+  }
+
+  document.getElementById("slidescontain").style.width = "300%";
+>>>>>>> parent of 2e273f9... final change
 }
 
 btn2.addEventListener("mouseenter", firstbtn1);
-
 function firstbtn1() {
+<<<<<<< HEAD
 <<<<<<< HEAD
     dots2.style.WebkitAnimation = "none";
     for (var i = 0; i < bar1.length; i++) {
@@ -272,6 +279,8 @@ function firstbtn1() {
     x[1].style.WebkitAnimation = "appear .6s";
     x[1].style.width = "100%";
 =======
+=======
+>>>>>>> parent of 2e273f9... final change
   dots2.style.WebkitAnimation = "none";
   for (var i = 0; i < bar1.length; i++) {
     bar1[i].className = bar1[i].className.replace(" red", "");
@@ -285,17 +294,25 @@ function firstbtn1() {
 
   x[0].classList.add("addno");
   x[2].classList.add("addno");
+<<<<<<< HEAD
   
+=======
+  // x[3].classList.add("addno");
+  // x[4].classList.add("addno");
+>>>>>>> parent of 2e273f9... final change
 
   document.getElementById("slidescontain").style.width = "100%";
   x[1].style.WebkitAnimation = "none";
   x[1].style.WebkitAnimation = "appear .6s";
   x[1].style.width = "100%";
+<<<<<<< HEAD
 >>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb
+=======
+>>>>>>> parent of 2e273f9... final change
 }
 btn2.addEventListener("mouseleave", firstbtnlev2);
-
 function firstbtnlev2() {
+<<<<<<< HEAD
 <<<<<<< HEAD
     intervalManager(true);
     y = 1;
@@ -308,6 +325,8 @@ function firstbtnlev2() {
     }
     document.getElementById("slidescontain").style.width = "300%";
 =======
+=======
+>>>>>>> parent of 2e273f9... final change
   intervalManager(true);
   y = 1;
 
@@ -315,14 +334,20 @@ function firstbtnlev2() {
   for (i = 0; i < x.length; i++) {
     x[i].classList.remove("addno");
     // x[i].style.WebkitAnimation ="20s anwar infinite";
+<<<<<<< HEAD
     x[i].style.width = "33.333%";
   }
   document.getElementById("slidescontain").style.width = "300%";
 >>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb
+=======
+    x[i].style.width = "40%";
+  }
+  document.getElementById("slidescontain").style.width = "300%";
+>>>>>>> parent of 2e273f9... final change
 }
 btn3.addEventListener("mouseenter", firstbtn2);
-
 function firstbtn2() {
+<<<<<<< HEAD
 <<<<<<< HEAD
     dots2.style.WebkitAnimation = "none";
 
@@ -346,6 +371,8 @@ function firstbtn2() {
     x[2].style.WebkitAnimation = "appear .6s";
     x[2].style.width = "100%";
 =======
+=======
+>>>>>>> parent of 2e273f9... final change
   dots2.style.WebkitAnimation = "none";
 
   for (var i = 0; i < bar1.length; i++) {
@@ -360,17 +387,25 @@ function firstbtn2() {
 
   x[0].classList.add("addno");
   x[1].classList.add("addno");
+<<<<<<< HEAD
 
+=======
+  // x[3].classList.add("addno");
+  // x[4].classList.add("addno");
+>>>>>>> parent of 2e273f9... final change
 
   document.getElementById("slidescontain").style.width = "100%";
   x[2].style.WebkitAnimation = "none";
   x[2].style.WebkitAnimation = "appear .6s";
   x[2].style.width = "100%";
+<<<<<<< HEAD
 >>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb
+=======
+>>>>>>> parent of 2e273f9... final change
 }
 btn3.addEventListener("mouseleave", firstbtnlev4);
-
 function firstbtnlev4() {
+<<<<<<< HEAD
 <<<<<<< HEAD
     intervalManager(true);
     y = 1;
@@ -382,84 +417,91 @@ function firstbtnlev4() {
     }
     document.getElementById("slidescontain").style.width = "300%";
 =======
+=======
+>>>>>>> parent of 2e273f9... final change
   intervalManager(true);
   y = 1;
 
   var x = document.getElementsByClassName("slide");
   for (i = 0; i < x.length; i++) {
     x[i].classList.remove("addno");
+<<<<<<< HEAD
     x[i].style.width = "33.333%";
   }
   document.getElementById("slidescontain").style.width = "300%";
 >>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb
+=======
+    x[i].style.width = "40%";
+  }
+  document.getElementById("slidescontain").style.width = "300%";
+>>>>>>> parent of 2e273f9... final change
 }
 var slideIndex = 1;
 
 if (window.matchMedia("(max-width: 500px)").matches) {
-    var myVar;
-    myFunction();
-    showDivs(slideIndex);
+  var myVar;
+  myFunction();
+  showDivs(slideIndex);
 
-    var i = 1;
+  var i = 1;
 }
 
 function myFunction() {
-    myVar = setInterval(myTimer, 2000);
+  myVar = setInterval(myTimer, 2000);
 }
-
 function myTimer() {
-    currentDiv(i);
-    i++;
+  currentDiv(i);
+  i++;
 
-    if (i > 5) {
-        i = 1;
-    }
+  if (i > 5) {
+    i = 1;
+  }
 }
 
 function myStopFunction() {
-    clearInterval(myVar);
+  clearInterval(myVar);
 }
 
 document.getElementById("btn-1").addEventListener("click", function() {
-    console.log("me");
-    myStopFunction();
-    currentDiv(1);
+  console.log("me");
+  myStopFunction();
+  currentDiv(1);
 });
 document.getElementById("btn-2").addEventListener("click", function() {
-    console.log("me");
-    myStopFunction();
-    currentDiv(2);
+  console.log("me");
+  myStopFunction();
+  currentDiv(2);
 });
 document.getElementById("btn-3").addEventListener("click", function() {
-    console.log("me");
-    myStopFunction();
-    currentDiv(3);
+  console.log("me");
+  myStopFunction();
+  currentDiv(3);
 });
 
 
 document.getElementById("btnleft").addEventListener("click", function() {
-    myStopFunction();
+  myStopFunction();
 
-    plusDivs(-1);
-    myFunction();
+  plusDivs(-1);
+  myFunction();
 });
 
 document.getElementById("btnright").addEventListener("click", function() {
-    myStopFunction();
+  myStopFunction();
 
-    plusDivs(1);
-    myFunction();
+  plusDivs(1);
+  myFunction();
 });
-
 function plusDivs(n) {
-    showDivs((slideIndex += n));
+  showDivs((slideIndex += n));
 }
 
 function currentDiv(n) {
-    showDivs((slideIndex = n));
+  showDivs((slideIndex = n));
 }
 
 function showDivs(n) {
+<<<<<<< HEAD
 <<<<<<< HEAD
     var i;
 
@@ -498,6 +540,8 @@ function showDivs(n) {
     }
     document.getElementById("dashtext").innerHTML = text;
 =======
+=======
+>>>>>>> parent of 2e273f9... final change
   var i;
 
   var x = document.getElementsByClassName("slide");
@@ -533,47 +577,50 @@ function showDivs(n) {
   } else {
     text = "第三期毕业生";
   }
+<<<<<<< HEAD
   document.getElementById("dashtext").innerHTML =text;
 >>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb
+=======
+  document.getElementById("dashtext").innerHTML = text;
+>>>>>>> parent of 2e273f9... final change
 }
 
 var slideIndex1 = 1;
 var intervalID = null;
 
 if (window.matchMedia("(max-width: 500px)").matches) {
-    intervalManager(false);
-    console.log("anwar");
+  intervalManager(false);
+  console.log("anwar");
 } else {
-    intervalManager(true);
-    console.log("amina");
+  intervalManager(true);
+  console.log("amina");
 }
-
 function intervalManager(flag) {
-    if (flag) {
-        intervalID = setInterval(myTimer1, 4000);
-    } else {
-        clearInterval(intervalID);
-    }
+  if (flag) {
+    intervalID = setInterval(myTimer1, 4000);
+  } else {
+    clearInterval(intervalID);
+  }
 }
-
 function myTimer1() {
-    currentDiv1(y);
-    y++;
-    if (y > 3) {
-        y = 1;
-    }
+  currentDiv1(y);
+  y++;
+  if (y > 3) {
+    y = 1;
+  }
 }
 
 function myStopFunction1() {
-    clearInterval(myVar1);
-    slideIndex1 = 1;
+  clearInterval(myVar1);
+  slideIndex1 = 1;
 }
 
 function currentDiv1(n) {
-    showDivs1((slideIndex = n));
+  showDivs1((slideIndex = n));
 }
 
 function showDivs1(n) {
+<<<<<<< HEAD
 <<<<<<< HEAD
     for (var i = 0; i < bar1.length; i++) {
         bar1[i].className = bar1[i].className.replace(" red", "");
@@ -595,6 +642,8 @@ function showDivs1(n) {
 
     // }
 =======
+=======
+>>>>>>> parent of 2e273f9... final change
   for (var i = 0; i < bar1.length; i++) {
     bar1[i].className = bar1[i].className.replace(" red", "");
   }
@@ -606,17 +655,28 @@ function showDivs1(n) {
   } else {
     dots2.style.WebkitAnimation = "f3 4s";
   }
+<<<<<<< HEAD
   
 >>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb
+=======
+
+  // }else if(y==4){
+  //   dots2.style.WebkitAnimation ="f4 4s";
+
+  // }else{
+  //   dots2.style.WebkitAnimation ="f5 4s";
+
+  // }
+>>>>>>> parent of 2e273f9... final change
 }
 
 // pan studentfeedback
 $(document).ready(function() {
-    $(".examples").slick({
-        arrows: false,
-        autoplay: true,
-        autoplaySpeed: 3000,
-    });
+  $(".examples").slick({
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 3000
+  });
 });
 
 var counter1 = document.querySelector(".counter1 span").innerHTML;
@@ -627,42 +687,41 @@ var number1 = parseInt(counter1);
 var number2 = parseInt(counter2);
 
 function increase1() {
-    setInterval(() => {
-        if (number1 < 1500) {
-            number1 = number1 + 1;
-            document.querySelector(".counter1 span").textContent = number1;
-        }
-    }, 50);
+  setInterval(() => {
+    if (number1 < 1500) {
+      number1 = number1 + 1;
+      document.querySelector(".counter1 span").textContent = number1;
+    }
+  }, 50);
 }
-
 function increase2() {
-    setInterval(() => {
-        if (number2 < 100) {
-            number2 = number2 + 1;
-            document.querySelector(".counter2 span").textContent = number2;
-        }
-    }, 50);
+  setInterval(() => {
+    if (number2 < 100) {
+      number2 = number2 + 1;
+      document.querySelector(".counter2 span").textContent = number2;
+    }
+  }, 50);
 }
 
 function increase() {
-    increase1();
-    increase2();
+  increase1();
+  increase2();
 }
 
 let options = {
-    root: null,
-    threshold: 0.5,
-    rootMargin: "0px",
+  root: null,
+  threshold: 0.5,
+  rootMargin: "0px"
 };
 
 const observer = new IntersectionObserver(function(entries, observer) {
-    entries.forEach((entry) => {
-        if (entry.isIntersecting === false) {
-            return;
-        } else {
-            increase();
-        }
-    });
+  entries.forEach(entry => {
+    if (entry.isIntersecting === false) {
+      return;
+    } else {
+      increase();
+    }
+  });
 }, options);
 
-observerSections.forEach((o) => observer.observe(o));
+observerSections.forEach(o => observer.observe(o));

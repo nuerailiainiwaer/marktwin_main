@@ -5,9 +5,14 @@
   "success": "Sucess Examples",
   "news": "News",
   "sources": "Resources",
+<<<<<<< HEAD
   "login": "Apply",
   "register": "Register",
   "trial": "Free Trial",
+=======
+  "login": "Login",
+  "register": "Register",
+>>>>>>> parent of 2e273f9... final change
   "latest_courses": "Latest Courses",
   "trianing_direction": {
     "title": "Traning Direction",
@@ -20,11 +25,19 @@
       "contents4": "Projects"
     },
     "jobs_services": "Jobs Services",
+<<<<<<< HEAD
     "services": {
       "contents1": "Resume Editing",
       "contents2": "Jobs Planing",
       "contents3": "North American Job Butler Service",
       "contents4": "Diamond Job Package"
+=======
+    "Services": {
+      "contents1": "Resume Editing",
+      "contents2": "Jobs Planing",
+      "contents3": "",
+      "contents4": ""
+>>>>>>> parent of 2e273f9... final change
     }
   },
   "training_processes": {
@@ -43,6 +56,7 @@
       "contents5": "Git"
     },
     "training": {
+<<<<<<< HEAD
       "title": "Start Traning",
       "contents1": "Login to get shcolars",
       "contents2": "Complete task to earn referral oppertunities"
@@ -91,6 +105,36 @@
     "satisfaction":"Satisfaction",
     "feedback":"Feedback from students"
 },
+=======
+        "title": "Start Traning",
+        "contents1": "Login to get shcolars",
+        "contents2": "Complete task to earn referral oppertunities"
+    },
+    "learning": {
+        "title": "Start Learning",
+        "contents1": "Get into IT company",
+        "contents2": "Get your position",
+        "contents3": "Get your project and Git account",
+        "contents4": "Get your Agile account",
+        "contents5": "Get into project team"
+    },
+    "sdlc&agile":{
+        "title":"SDLC&Agile",
+        "contents1":"Participate project meetings",
+        "contents2":"Analysis,Development,Testing",
+        "contents3":"Developer + BA + DA + QA cooperation",
+        "contents4":"Get into project team"
+    },
+    "graduation":{
+        "title":"Graduation",
+        "contents1":"Project demonstration",
+        "contents2":"Gets your certificate",
+        "contents3":"Build up your personal network",
+        "contents4":"Training&Internship questionnaire coupon",
+        "contents5":"Graduation Party"
+    }
+  },
+>>>>>>> parent of 2e273f9... final change
   "footer": {
     "fullStack": "Full Stack Developer",
     "ba": "Business Analysis",
@@ -100,4 +144,8 @@
     "weChat": "Contact us on WeChat"
   },
   "content": "This is Content"
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> parent of 2e273f9... final change

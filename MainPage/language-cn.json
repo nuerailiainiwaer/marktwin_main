@@ -5,9 +5,14 @@
     "success": "成功案例",
     "news": "新闻活动",
     "sources": "免费资源",
+<<<<<<< HEAD
     "login": "申请课程",
     "register": "注册",
     "trial":"申请试听",
+=======
+    "login": "登录",
+    "register": "注册",
+>>>>>>> parent of 2e273f9... final change
     "latest_courses": "最新课程",
     "trianing_direction": {
         "title": "培训方向",
@@ -71,6 +76,7 @@
             "contents5":"毕业酒席"
         }
     },
+<<<<<<< HEAD
     "why_us":{
         "title":"为什么选择我们",
         "contents1":"多个主导项目实践的专家讲师",
@@ -91,6 +97,8 @@
         "satisfaction":"满意度",
         "feedback":"来自学员的反馈"
     },
+=======
+>>>>>>> parent of 2e273f9... final change
     "footer": {
         "fullStack": "全栈工程师",
         "ba": "商业分析",
