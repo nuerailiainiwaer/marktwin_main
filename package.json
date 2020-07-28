@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "marktwin_main",
     "version": "1.0.0",
     "description": "",
@@ -20,3 +21,26 @@
         "node-sass": "^4.14.1"
     }
 }
+=======
+  "name": "marktwin_main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-sass sass/main.scss MainPage/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuerailiainiwaer/marktwin_main.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuerailiainiwaer/marktwin_main/issues"
+  },
+  "homepage": "https://github.com/nuerailiainiwaer/marktwin_main#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
+>>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb
