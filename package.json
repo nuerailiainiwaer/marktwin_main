@@ -1,8 +1,11 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "mark2win_newwebsite",
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of dbc6ace... final
     "name": "marktwin_main",
     "version": "1.0.0",
     "description": "",
@@ -26,11 +29,15 @@
 }
 =======
   "name": "marktwin_main",
+<<<<<<< HEAD
+>>>>>>> parent of dbc6ace... final
+=======
 >>>>>>> parent of dbc6ace... final
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
 <<<<<<< HEAD
     "mark": "node-sass sass/main.scss mainpage/style.css -w"
   },
@@ -38,16 +45,22 @@
     "type": "git",
     "url": "git+https://github.com/panshangzhu/mark2win_newwebsite.git"
 =======
+=======
+>>>>>>> parent of dbc6ace... final
     "test": "node-sass sass/main.scss MainPage/style.css -w"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nuerailiainiwaer/marktwin_main.git"
+<<<<<<< HEAD
+>>>>>>> parent of dbc6ace... final
+=======
 >>>>>>> parent of dbc6ace... final
   },
   "author": "",
   "license": "ISC",
   "bugs": {
+<<<<<<< HEAD
 <<<<<<< HEAD
     "url": "https://github.com/panshangzhu/mark2win_newwebsite/issues"
   },
@@ -58,11 +71,20 @@
   },
   "homepage": "https://github.com/nuerailiainiwaer/marktwin_main#readme",
 >>>>>>> parent of dbc6ace... final
+=======
+    "url": "https://github.com/nuerailiainiwaer/marktwin_main/issues"
+  },
+  "homepage": "https://github.com/nuerailiainiwaer/marktwin_main#readme",
+>>>>>>> parent of dbc6ace... final
   "dependencies": {
     "node-sass": "^4.13.1"
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb
+>>>>>>> parent of dbc6ace... final
 =======
 >>>>>>> 8d6aa0d468286926b9b14bbe2f9fcf8622edccbb
 >>>>>>> parent of dbc6ace... final
