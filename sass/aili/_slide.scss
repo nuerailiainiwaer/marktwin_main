@@ -1,33 +1,30 @@
-$bp-largest: 75em;     // 1200px
-$bp-large: 68.75em;    // 1100px
-$bp-medium: 56.25em;   // 900px
-$bp-small: 37.5em;     // 600px
+$bp-largest: 75em; // 1200px
+$bp-large: 68.75em; // 1100px
+$bp-medium: 56.25em; // 900px
+$bp-small: 37.5em; // 600px
 $bp-smallest: 31.25em; // 500px
-
 $bp-768: 48em; // 500px
 $bp-414: 25em; // 360px
 $bp-411: 25.68em; // 411px
 $bp-375: 23.43em; // 320px
 $bp-360: 22.5; // 411px
 $bp-320: 20em; // 411px
-
-html{
-    width: auto!important; overflow-x: hidden!important
+html {
+    width: auto !important;
+    overflow-x: hidden !important;
 }
 
-.slide1{
+.slide1 {
     clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
-    ;
     margin-top: -5.5rem;
     padding: 8rem 0rem 5rem 0rem;
     background-color: $base_color_black;
-    
 }
 
-.overall{
+.overall {
     overflow: hidden;
     width: 100vw;
-        height: 550px;
+    height: 550px;
     @media only screen and (max-width: $bp-smallest) {
         height: 80vh;
     }
@@ -43,46 +40,35 @@ html{
     display: flex;
     flex-direction: column;
 }
-.slide__main__title{
+
+.slide__main__title {
     width: 100vw;
     background-color: $base_color_black;
-
 }
-h2, p{
+
+h2,
+p {
     text-align: center;
     color: $base_color_green;
 }
-p{
+
+p {
     margin-bottom: 1rem;
 }
-.slidershow{
 
+.slidershow {
     background-color: $base_color_black;
     @media only screen and (max-width: $bp-smallest) {
         flex: 0 0 100%;
-        
     }
-    // @media only screen and (max-width: 26em) {
-    //     flex: 0 0 72%;
-    // }
-    // @media only screen and (max-width: 24.0em) {
-    //     flex: 0 0 76%;
-    // }
-    // @media only screen and (max-width: 23em) {
-    //     flex: 0 0 79%;
-    // }
-    // @media only screen and (max-width: 21em) {
-    // flex: 0 0 76%;
-    // }
     width: 100vw;
     height: 600px;
     overflow: hidden;
     position: relative;
     background-color: #f1f2f5 !important;
-    
 }
 
-.navigation1{
+.navigation1 {
     width: 100%;
     display: flex;
     height: 4rem;
@@ -92,24 +78,24 @@ p{
         display: none;
     }
 }
-.bar{
-    
+
+.bar {
     background-color: white;
     border-radius: 25%;
-    padding:.1rem .5rem .1rem .5rem;
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
     width: 100px;
     height: 40px;
     border: none;
     outline: none;
-    font-size: .8rem;
+    font-size: 0.8rem;
     cursor: pointer;
-    margin: .5rem;
-    &:hover{
-        background-color:#f1eee9;
+    margin: 0.5rem;
+    &:hover {
+        background-color: #f1eee9;
         border: 1px solid #f1eee9;
         border-radius: 25px;
     }
-    &__btn{
+    &__btn {
         width: 100px;
         height: 30px;
         appearance: none;
@@ -117,20 +103,18 @@ p{
         border: none;
         display: flex;
         align-items: stretch;
-        & span{
-           align-self: center; 
-           margin-left: .3rem;
+        & span {
+            align-self: center;
+            margin-left: 0.3rem;
         }
-        &:hover{
+        &:hover {
             color: blue;
             background-color: #f1eee9;
         }
     }
 }
-.slides{
 
-  
-    
+.slides {
     width: 300%;
     display: flex;
     position: relative;
@@ -138,7 +122,7 @@ p{
         width: 100%;
         height: 80%;
     }
-    &_button{
+    &_button {
         position: absolute !important;
         display: none;
         border: none;
@@ -151,23 +135,22 @@ p{
             display: block;
         }
     }
-    &__nextbtn{
+    &__nextbtn {
         @media only screen and (max-width: $bp-smallest) {
             right: 0;
         }
     }
-    &__nav{
+    &__nav {
         flex: 1;
         background-color: #f1f2f5 !important;
         display: none;
-        bottom: .5rem;
+        bottom: 0.5rem;
         // border-bottom:  3px solid black;
-        margin-bottom: .5rem;
-        &--contain{
+        margin-bottom: 0.5rem;
+        &--contain {
             border: 1px solid black;
-            border-radius: 25px; 
+            border-radius: 25px;
             height: 3rem;
-           
         }
         @media only screen and (max-width: $bp-smallest) {
             display: block;
@@ -176,14 +159,13 @@ p{
             justify-content: center;
             align-items: center;
         }
-        &--btn{
+        &--btn {
             margin: 1rem;
         }
     }
 }
 
-
-.slide{
+.slide {
     padding: 0;
     background-color: #f1f2f5 !important;
     position: relative;
@@ -197,7 +179,6 @@ p{
     align-items: center;
     background-color: white;
     height: 500px;
-
     @media only screen and (max-width: $bp-smallest) {
         width: 100%;
         overflow: hidden;
@@ -212,13 +193,13 @@ p{
     @media only screen and (max-width: $bp-smallest) {
         // animation: none !important;
     }
-    &__dash{
+    &__dash {
         font-size: 1rem;
         @media only screen and (min-width: $bp-smallest) {
             display: none;
         }
     }
-    &__item{
+    &__item {
         font-size: 3rem;
         position: relative;
         width: 175px;
@@ -228,29 +209,28 @@ p{
         background-color: white;
         border-radius: 32px;
         display: flex;
-        box-shadow: 0 0 2px rgba(0,0,0,.15rem);
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.15rem);
         margin-bottom: 1.8rem;
         margin-top: 1rem;
-        &__icon{
+        &__icon {
             margin-left: 0;
             border: 4px solid white;
             background-color: white;
             height: 80%;
             width: 4rem;
-            // background-color: black;
             box-sizing: content-box;
             border-radius: 50%;
             flex: 0 0 25%;
             align-self: center;
         }
-        &__text{
+        &__text {
             flex: 0 0 75%;
             font-size: 1rem;
             display: flex;
             flex-direction: column;
             align-items: center;
             align-self: center;
-            &--1{
+            &--1 {
                 font-weight: bold;
             }
         }
@@ -262,8 +242,8 @@ p{
             height: 40px;
         }
         @media only screen and (max-width: 65em) {
-            margin: .5rem 0 .85rem 0;
-            &:nth-child(4n+16){
+            margin: 0.5rem 0 0.85rem 0;
+            &:nth-child(4n + 16) {
                 display: none;
             }
         }
@@ -272,21 +252,20 @@ p{
             margin-top: 1rem;
         }
         @media only screen and (max-width: 48em) {
-            margin: .5rem 0 .85rem 0;
-            &:nth-child(4n+16){
+            margin: 0.5rem 0 0.85rem 0;
+            &:nth-child(4n + 16) {
                 display: none;
             }
         }
-
         @media only screen and (max-width: 45em) {
             margin-bottom: 2rem;
             margin-top: 1rem;
         }
         @media only screen and (max-width: $bp-smallest) {
-            margin-bottom: .25rem;
+            margin-bottom: 0.25rem;
             flex: 0 0 70%;
         }
-        &:nth-child(4n+1){
+        &:nth-child(4n + 1) {
             margin-left: -48px;
             @media only screen and (max-width: 48em) {
                 margin-left: -18px;
@@ -295,7 +274,7 @@ p{
                 margin-left: 0;
             }
         }
-        &:nth-child(4n+2){
+        &:nth-child(4n + 2) {
             margin-left: 36px;
             @media only screen and (max-width: 48em) {
                 margin-left: 12px;
@@ -304,7 +283,7 @@ p{
                 margin-left: 0;
             }
         }
-        &:nth-child(4n+3){
+        &:nth-child(4n + 3) {
             margin-left: -18px;
             @media only screen and (max-width: 48em) {
                 margin-left: -9px;
@@ -313,7 +292,7 @@ p{
                 margin-left: 0;
             }
         }
-        &:nth-child(4n+4){
+        &:nth-child(4n + 4) {
             margin-left: 72px;
             @media only screen and (max-width: 48em) {
                 margin-left: 30px;
@@ -324,89 +303,122 @@ p{
         }
     }
 }
-@keyframes anwar{
-    0%{
+
+@keyframes anwar {
+    0% {
         left: 0;
     }
-    10%{
+    10% {
         left: -20%;
     }
-    20%{
+    20% {
         left: -40%;
     }
-    30%{
+    30% {
         left: -60%;
     }
-    40%{
+    40% {
         left: -80%;
     }
-    50%{
+    50% {
         left: -60%;
     }
-    60%{
+    60% {
         left: -40%;
     }
-    70%{
+    70% {
         left: -20%;
     }
 }
 
-
-.addflex{
+.addflex {
     display: flex;
 }
-.addno{
+
+.addno {
     display: none;
 }
 
-@keyframes appear{
-    0%   {opacity: 0;}
-    
-    50%  {opacity: .5;}
-    
-    100% {opacity: 1;}
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
-.red{
-    background-color:red;
+.red {
+    background-color: red;
     @media only screen and (max-width: $bp-smallest) {
-        background-color:black;
-        
+        background-color: black;
     }
     border-radius: 25%;
 }
-.makingFlex{
+
+.makingFlex {
     display: flex !important;
 }
-@keyframes f1{
-    0%   {left: 0%;}
-    50%   {left: 0%;}
-    100%   {left: 0%;}
-}
-@keyframes f2{
-    0%   {left: 0;}
-    50%   {left: -100%;}
-    100%   {left: -100%;}
-}
-@keyframes f3{
-    0%   {left: -100%;}
-    50%   {left: -200%;}
-    100%   {left: -200%;}
-}
-@keyframes f4{
-    0%   {left: -200%;}
-    50%   {left: -300%;}
-    100%   {left: -300%;}
-}
-@keyframes f5{
 
-    0%   {left: -300%;}
-    50%   {left: -400%;}
-    100%   {left: -400%;}
-
+@keyframes f1 {
+    0% {
+        left: 0%;
+    }
+    50% {
+        left: 0%;
+    }
+    100% {
+        left: 0%;
+    }
 }
 
+@keyframes f2 {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: -100%;
+    }
+    100% {
+        left: -100%;
+    }
+}
 
+@keyframes f3 {
+    0% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    100% {
+        left: -200%;
+    }
+}
 
+@keyframes f4 {
+    0% {
+        left: -200%;
+    }
+    50% {
+        left: -300%;
+    }
+    100% {
+        left: -300%;
+    }
+}
 
-    
+@keyframes f5 {
+    0% {
+        left: -300%;
+    }
+    50% {
+        left: -400%;
+    }
+    100% {
+        left: -400%;
+    }
+}
