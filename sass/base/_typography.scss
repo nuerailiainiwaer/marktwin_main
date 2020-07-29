@@ -1,0 +1,22 @@
+.headingtext { 
+    padding: 2rem 0 2rem 0;
+    text-align: center !important;
+    &-fix{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    background-image: 
+    linear-gradient(to right, rgb(100,237,190), rgb(255,199,64));
+    
+     -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 1rem;
+    transition: all .2s;
+    &:hover {
+        transform:  scale(1.1);
+        text-shadow: .5rem 1rem 2rem rgba(black, .2);
+    }
+
+    }
+}

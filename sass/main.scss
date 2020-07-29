@@ -1,0 +1,31 @@
+$base_color_grey: rgb(241, 243, 254);
+$base_color_black: rgb(20, 28, 58);
+$base_color_green: rgb(100, 237, 190);
+$base_color_yellow: rgb(255, 199, 64);
+$base_color_blue: rgb(100, 0, 228);
+$text_color_black: rgb(20, 28, 58);
+$text_color_white: rgb(255, 255, 255);
+$text_color_blue: #141c73;
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+@import "abstract/dashboard";
+@import "abstract/feedback";
+@import "abstract/footer";
+@import "abstract/slider";
+@import "abstract/studydirection";
+@import "abstract/toppic";
+@import "abstract/trainingnav";
+@import "abstract/whyus";
+@import "aili/studydirection";
+@import "aili/nav";
+@import "aili/respons";
+@import "aili/slide";
+@import "aili/insidenextslide";
+@import "aili/aboutus";
+@import "base/animation";
+@import "base/base";
+@import "base/typography";
+@import "component/navigationbar";
+@import "component/variables";

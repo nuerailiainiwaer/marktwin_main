@@ -1,0 +1,14 @@
+{
+    "name": "marktwin_main-503f77009fc3504cd0a9a4084e800f681590bdbf",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "runme": "node-sass sass/main.scss sass/main.css -w"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "node-sass": "^4.14.1"
+    }
+}
