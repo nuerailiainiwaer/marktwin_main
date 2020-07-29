@@ -1806,7 +1806,7 @@ p {
     opacity: 1; } }
 
 .red {
-  background-color: red;
+  background-color: #ffc73f;
   border-radius: 25%; }
   @media only screen and (max-width: 31.25em) {
     .red {
@@ -1948,7 +1948,7 @@ p {
     border: none;
     line-height: 1.5rem;
     transition: all 0.3s ease;
-    background: linear-gradient(to right, blue, #5687e3 100%);
+    background: #7173f5;
     box-shadow: 0 12px 14px -4px rgba(0, 0, 0, 0.15);
     cursor: pointer;
     display: inline-block;
