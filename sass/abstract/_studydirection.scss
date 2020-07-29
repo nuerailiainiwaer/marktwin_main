@@ -10,14 +10,7 @@ $bp-800: 50em;
 .studydirection {
     position: relative;
     z-index: -2000;
-    background-color: rgb(100, 237, 190);
-    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
-    margin-top: -5.5rem;
-    padding: 4rem 0rem 5rem 0rem;
-    @media only screen and (max-width: 31.25em) {
-        margin-top: -7.5rem;
-        padding: 6rem 0rem 8rem 0rem;
-    }
+    @media only screen and (max-width: 31.25em) {}
 }
 
 .container {
@@ -58,7 +51,6 @@ $bp-800: 50em;
             background-size: cover;
             height: 12rem;
             background-blend-mode: lighten;
-            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
             border-top-left-radius: 3px;
             border-top-right-radius: 3px;
             @media only screen and (max-width: $bp-800) {
@@ -192,7 +184,7 @@ $bp-800: 50em;
 .container {
     margin-top: 1rem;
     width: 100vw;
-    background-color: #f3f3f3;
+    background-color: #f1f3fe;
     display: flex;
     justify-content: center;
     @media only screen and (max-width: $bp-800) {

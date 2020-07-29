@@ -15,10 +15,8 @@ html {
 }
 
 .slide1 {
-    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
-    margin-top: -5.5rem;
-    padding: 8rem 0rem 5rem 0rem;
-    background-color: $base_color_black;
+    background-color: #f1f3fe;
+    margin-bottom: 4rem;
 }
 
 .overall {
@@ -26,7 +24,7 @@ html {
     width: 100vw;
     height: 550px;
     @media only screen and (max-width: $bp-smallest) {
-        height: 80vh;
+        height: 85vh;
     }
     // @media only screen and (max-width: 63em) {
     //     height: 85vh;
@@ -43,7 +41,7 @@ html {
 
 .slide__main__title {
     width: 100vw;
-    background-color: $base_color_black;
+    background-color: #f1f3fe;
 }
 
 h2,
@@ -127,12 +125,12 @@ p {
         display: none;
         border: none;
         color: white;
-        z-index: 2000;
         width: 3rem;
         height: 3rem;
         top: 35%;
         @media only screen and (max-width: $bp-smallest) {
             display: block;
+            color: black !important;
         }
     }
     &__nextbtn {
@@ -144,9 +142,7 @@ p {
         flex: 1;
         background-color: #f1f2f5 !important;
         display: none;
-        bottom: 0.5rem;
         // border-bottom:  3px solid black;
-        margin-bottom: 0.5rem;
         &--contain {
             border: 1px solid black;
             border-radius: 25px;

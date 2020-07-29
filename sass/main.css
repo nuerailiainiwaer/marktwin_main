@@ -71,8 +71,6 @@
         border: 1px solid blue; }
 
 .dashboard {
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-  padding: 2rem 3rem 5rem 3rem;
   overflow: hidden;
   height: 500px;
   width: auto;
@@ -93,8 +91,6 @@
       margin: 3rem 2rem 0 0; }
 
 .studentFeedback {
-  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
-  margin-top: -2rem;
   padding: 4rem 0rem 5rem 0rem;
   background-color: #141c3a;
   background-color: #141c3a;
@@ -195,15 +191,7 @@
 
 .slide1 {
   position: relative;
-  z-index: 2000;
-  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
-  margin-top: -5.5rem;
-  padding: 4rem 0rem 5rem 0rem;
   background-color: #151c3b; }
-  @media only screen and (max-width: 31.25em) {
-    .slide1 {
-      margin-top: -8rem;
-      padding: 4rem 0rem 8rem 0rem; } }
 
 .overall {
   overflow: hidden;
@@ -219,7 +207,8 @@
   width: 100vw;
   background-color: #141c3a; }
 
-h2, p {
+h2,
+p {
   text-align: center;
   color: #64edbe; }
 
@@ -290,13 +279,13 @@ p {
     display: none;
     border: none;
     color: white;
-    z-index: 2000;
     width: 3rem;
     height: 3rem;
     top: 35%; }
     @media only screen and (max-width: 31.25em) {
       .slides_button {
-        display: block; } }
+        display: block;
+        color: black !important; } }
   @media only screen and (max-width: 31.25em) {
     .slides__nextbtn {
       right: 0; } }
@@ -472,15 +461,7 @@ p {
 
 .studydirection {
   position: relative;
-  z-index: -2000;
-  background-color: #64edbe;
-  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
-  margin-top: -5.5rem;
-  padding: 4rem 0rem 5rem 0rem; }
-  @media only screen and (max-width: 31.25em) {
-    .studydirection {
-      margin-top: -7.5rem;
-      padding: 6rem 0rem 8rem 0rem; } }
+  z-index: -2000; }
 
 .container {
   width: 100vw;
@@ -519,7 +500,6 @@ p {
       background-size: cover;
       height: 12rem;
       background-blend-mode: lighten;
-      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
       border-top-left-radius: 3px;
       border-top-right-radius: 3px; }
       @media only screen and (max-width: 50em) {
@@ -626,7 +606,7 @@ p {
 .container {
   margin-top: 1rem;
   width: 100vw;
-  background-color: #f3f3f3;
+  background-color: #f1f3fe;
   display: flex;
   justify-content: center; }
   @media only screen and (max-width: 50em) {
@@ -1033,9 +1013,6 @@ p {
   font-size: 62.5%; }
 
 .primarywrapper {
-  clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
-  margin-top: -5rem;
-  padding: 8rem 0rem 5rem 0rem;
   background-color: #f1f3fe;
   display: flex;
   flex-direction: column;
@@ -1234,17 +1211,10 @@ p {
 .whyUs {
   position: relative;
   z-index: -4000;
-  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
-  margin-top: -5.5rem;
-  padding: 4rem 0rem 7rem 0rem;
   text-align: center;
   font-size: 1.3rem;
   min-height: 400px;
   background-color: #f1f3fe; }
-  @media only screen and (max-width: 31.25em) {
-    .whyUs {
-      margin-top: -11rem;
-      padding: 9rem 0rem 10rem 0rem; } }
   .whyUs .wReasons {
     display: flex;
     justify-content: center;
@@ -1267,14 +1237,14 @@ p {
   box-sizing: border-box; }
 
 .studydirection {
-  background-color: #64edbe;
-  clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
-  margin-top: -5.5rem;
-  padding: 8rem 3rem 8rem 3rem; }
+  background-color: #f1f3fe;
+  margin-bottom: 4rem; }
 
 .container {
+  width: 100%;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 0; }
   @media only screen and (max-width: 50em) {
     .container {
       flex-direction: column; } }
@@ -1563,10 +1533,8 @@ html {
   overflow-x: hidden !important; }
 
 .slide1 {
-  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
-  margin-top: -5.5rem;
-  padding: 8rem 0rem 5rem 0rem;
-  background-color: #141c3a; }
+  background-color: #f1f3fe;
+  margin-bottom: 4rem; }
 
 .overall {
   overflow: hidden;
@@ -1576,11 +1544,11 @@ html {
   flex-direction: column; }
   @media only screen and (max-width: 31.25em) {
     .overall {
-      height: 80vh; } }
+      height: 85vh; } }
 
 .slide__main__title {
   width: 100vw;
-  background-color: #141c3a; }
+  background-color: #f1f3fe; }
 
 h2,
 p {
@@ -1654,22 +1622,20 @@ p {
     display: none;
     border: none;
     color: white;
-    z-index: 2000;
     width: 3rem;
     height: 3rem;
     top: 35%; }
     @media only screen and (max-width: 31.25em) {
       .slides_button {
-        display: block; } }
+        display: block;
+        color: black !important; } }
   @media only screen and (max-width: 31.25em) {
     .slides__nextbtn {
       right: 0; } }
   .slides__nav {
     flex: 1;
     background-color: #f1f2f5 !important;
-    display: none;
-    bottom: 0.5rem;
-    margin-bottom: 0.5rem; }
+    display: none; }
     .slides__nav--contain {
       border: 1px solid black;
       border-radius: 25px;
@@ -2151,7 +2117,8 @@ p {
     border: 1px black solid; } }
 
 html {
-  overflow-x: hidden !important; }
+  overflow-x: hidden !important;
+  background-color: #f1f3fe; }
 
 *,
 *::after,

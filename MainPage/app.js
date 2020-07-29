@@ -210,19 +210,19 @@ document.getElementById("btn-3").addEventListener("click", function() {
     currentDiv(3);
 });
 
-document.getElementById("btnleft").addEventListener("click", function() {
-    myStopFunction();
+// document.getElementById("btnleft").addEventListener("click", function() {
+//     myStopFunction();
 
-    plusDivs(-1);
-    myFunction();
-});
+//     plusDivs(-1);
+//     myFunction();
+// });
 
-document.getElementById("btnright").addEventListener("click", function() {
-    myStopFunction();
+// document.getElementById("btnright").addEventListener("click", function() {
+//     myStopFunction();
 
-    plusDivs(1);
-    myFunction();
-});
+//     plusDivs(1);
+//     myFunction();
+// });
 
 function plusDivs(n) {
     showDivs((slideIndex += n));

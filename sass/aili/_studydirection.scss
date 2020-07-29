@@ -9,15 +9,15 @@ $bp-800: 50em; //800px
 }
 
 .studydirection {
-    background-color: $base_color_green;
-    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
-    margin-top: -5.5rem;
-    padding: 8rem 3rem 8rem 3rem;
+    background-color: #f1f3fe;
+    margin-bottom: 4rem;
 }
 
 .container {
+    width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 0;
     @media only screen and (max-width: $bp-800) {
         flex-direction: column;
     }
@@ -113,10 +113,6 @@ $bp-800: 50em; //800px
     }
     &:hover .btn {
         display: inline-block;
-    }
-    &:hover &__back {
-        // opacity: 1;
-        // transform: rotateY(0);
     }
 }
 
